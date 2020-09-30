@@ -55,7 +55,7 @@
 	var querystring = 'name=' +paname;
 	paallocation.addQuery();
 	gs.info("The value in query string is:" + querystring);
-	sum =+ paallocation.total_hours;
+	sum =+ parseInt(paallocation.total_hours);
 	gs.info(("The total hrs for PA resource is:" + sum));
 	}	
 	}
@@ -67,7 +67,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5e0ff08adbe3d05046b593c3e29619d3</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Total Hrs to Display Resource Allocation</sys_name>
         <sys_overrides/>
         <sys_package display_value="Customer Outcomes Assignment" source="x_snc_customer_out">7d70ba10db879850bde16a3b13961924</sys_package>
@@ -75,7 +75,7 @@
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_update_name>sys_script_5e0ff08adbe3d05046b593c3e29619d3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-30 20:59:10</sys_updated_on>
+        <sys_updated_on>2020-09-30 22:39:12</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>
