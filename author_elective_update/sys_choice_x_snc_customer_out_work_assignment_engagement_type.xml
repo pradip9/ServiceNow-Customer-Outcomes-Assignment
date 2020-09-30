@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="engagement_type" table="x_snc_customer_out_work_assignment" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>engagement_type</element>
+            <name>x_snc_customer_out_work_assignment</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-31 20:50:01</sys_created_on>
+            <sys_id>984a5f94dbcb9850bde16a3b1396196c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>engagement_type</sys_name>
+            <sys_package display_value="Customer Outcomes Assignment" source="x_snc_customer_out">7d70ba10db879850bde16a3b13961924</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
+            <sys_update_name>sys_choice_x_snc_customer_out_work_assignment_engagement_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-31 20:50:01</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>engagement_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Enterprise Success Package</label>
+            <language>en</language>
+            <name>x_snc_customer_out_work_assignment</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-31 20:50:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5f1a53d4dbcb9850bde16a3b13961954</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-29 17:54:38</sys_updated_on>
+            <value>Enterprise Success Package</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>engagement_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Professional Success Package</label>
+            <language>en</language>
+            <name>x_snc_customer_out_work_assignment</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-31 20:50:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f54ad3d4dbcb9850bde16a3b13961946</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-31 20:50:32</sys_updated_on>
+            <value>Professional Success Package</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>engagement_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Premium Success Package</label>
+            <language>en</language>
+            <name>x_snc_customer_out_work_assignment</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-31 20:51:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ce6a9bd4dbcb9850bde16a3b139619cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-31 20:51:10</sys_updated_on>
+            <value>Premium Success Package</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>engagement_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Project</label>
+            <language>en</language>
+            <name>x_snc_customer_out_work_assignment</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-31 20:52:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d2cad718dbcb9850bde16a3b13961919</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-31 20:52:35</sys_updated_on>
+            <value>Project</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>engagement_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Presales Assistance</label>
+            <language>en</language>
+            <name>x_snc_customer_out_work_assignment</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-31 20:53:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>71ea9b18dbcb9850bde16a3b13961907</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-31 20:53:09</sys_updated_on>
+            <value>PreSales Assistance</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

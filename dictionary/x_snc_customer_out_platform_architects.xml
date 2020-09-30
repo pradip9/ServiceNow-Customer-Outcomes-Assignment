@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_user" label="Platform Architects" max_length="40" name="x_snc_customer_out_platform_architects" type="collection">
+        <element choice="1" label="Product Skillset" max_length="32" name="product_skillset" reference="x_snc_customer_out_platform_products" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="product_skillset"/>
+        </index>
+    </element>
+</database>

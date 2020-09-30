@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_m2m">
+    <sys_m2m action="INSERT_OR_UPDATE">
+        <from_table>x_snc_customer_out_platform_products</from_table>
+        <m2m_from_field>platform_products</m2m_from_field>
+        <m2m_from_label>Platform Architects</m2m_from_label>
+        <m2m_table>x_snc_customer_out_m2m_platform_arc_platform_pro</m2m_table>
+        <m2m_to_field>platform_architects</m2m_to_field>
+        <m2m_to_label>Platform Products</m2m_to_label>
+        <sys_class_name>sys_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-01 16:03:57</sys_created_on>
+        <sys_id>d4426764db4f1c50bde16a3b1396196b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_customer_out_m2m_platform_arc_platform_pro</sys_name>
+        <sys_package display_value="Customer Outcomes Assignment" source="x_snc_customer_out">7d70ba10db879850bde16a3b13961924</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
+        <sys_update_name>sys_m2m_d4426764db4f1c50bde16a3b1396196b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-01 16:03:57</sys_updated_on>
+        <to_table>x_snc_customer_out_platform_architects</to_table>
+    </sys_m2m>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application/>
+        <key>$80e598b4a8075c5015451b2c0db11d6c{gs.getMessage('SC Item Form Description')}</key>
+        <language>en</language>
+        <message>$80e598b4a8075c5015451b2c0db11d6c{gs.getMessage('SC Item Form Description')}</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-01 19:49:00</sys_created_on>
+        <sys_id>90e598b4db075c50bde16a3b13961971</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>$80e598b4a8075c5015451b2c0db11d6c{gs.getMessage('SC Item Form Description')}</sys_name>
+        <sys_package display_value="Customer Outcomes Assignment" source="x_snc_customer_out">7d70ba10db879850bde16a3b13961924</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
+        <sys_update_name>sys_ui_message_90e598b4db075c50bde16a3b13961971</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-01 19:49:00</sys_updated_on>
+    </sys_ui_message>
+</record_update>

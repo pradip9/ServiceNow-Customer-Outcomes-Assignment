@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_snc_customer_out_work_assignment</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Populate Values from List Collector</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	current.platform_products = current.variables.list-collector-plat_products;
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-02 00:48:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dd99d1f0db4f5c50bde16a3b13961931</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Populate Values from List Collector</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Customer Outcomes Assignment" source="x_snc_customer_out">7d70ba10db879850bde16a3b13961924</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
+        <sys_update_name>sys_script_dd99d1f0db4f5c50bde16a3b13961931</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-02 03:05:40</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=dd99d1f0db4f5c50bde16a3b13961931"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</application>
+        <file_path/>
+        <instance_id>091bbfa9db09809052dd2f17d4961923</instance_id>
+        <instance_name>emppramani1</instance_name>
+        <name>sys_script_dd99d1f0db4f5c50bde16a3b13961931</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_snc_customer_out_work_assignment&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Populate Values from List Collector&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	current.platform_products = current.variables.list-collector-plat_products;
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-09-02 00:48:38&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;dd99d1f0db4f5c50bde16a3b13961931&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Populate Values from List Collector&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Customer Outcomes Assignment" source="x_snc_customer_out"&gt;7d70ba10db879850bde16a3b13961924&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Customer Outcomes Assignment"&gt;7d70ba10db879850bde16a3b13961924&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_dd99d1f0db4f5c50bde16a3b13961931&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-02 03:05:40&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=dd99d1f0db4f5c50bde16a3b13961931"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>370786</payload_hash>
+        <record_name>Populate Values from List Collector</record_name>
+        <reverted_from/>
+        <source>f970ba10db879850bde16a3b13961928</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-02 03:05:40</sys_created_on>
+        <sys_id>70d93134db439c50bde16a3b1396198b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1744cc6f2af0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-02 03:05:40</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>74d9313459439c509050faace5c6e68a</update_guid>
+        <update_guid_history>74d9313459439c509050faace5c6e68a:370786,b21971b0e5439c5045b262923c89906a:-330076701,817b5db4794f5c50c1f1d04f67d057a2:370786,fffa15b4e24f5c5072d3d8ebbdb2638f:-330076701,478a9174164f5c50d01c667b3dad897e:1988046652,d97a9d34c84f5c507f4f5c33be3d68a8:-330076701</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-02 03:07:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>0fe436d36f27490284fef494c4836b24</sys_id>
+        <sys_metadata>dd99d1f0db4f5c50bde16a3b13961931</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Populate Values from List Collector</sys_name>
+        <sys_package display_value="Customer Outcomes Assignment" source="x_snc_customer_out">7d70ba10db879850bde16a3b13961924</sys_package>
+        <sys_parent display_value="Work Assignment">89d37e18db879850bde16a3b1396190d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
+        <sys_scope_delete display_value="">446b03ae0323467facddb1158136c089</sys_scope_delete>
+        <sys_update_name>sys_script_dd99d1f0db4f5c50bde16a3b13961931</sys_update_name>
+        <sys_update_version display_value="sys_script_dd99d1f0db4f5c50bde16a3b13961931">70d93134db439c50bde16a3b1396198b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-02 03:07:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

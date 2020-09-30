@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="dc006b20db4f1c50bde16a3b13961985" sys_domain="global" table="x_snc_customer_out_platform_architects" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-01 15:53:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a4006b20db4f1c50bde16a3b13961990</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_customer_out_platform_architects" name="x_snc_customer_out_platform_architects" sys_domain="global" view="3e5370019f22120047a2d126c42e705b">dc006b20db4f1c50bde16a3b13961985</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_customer_out_platform_architects" sys_domain="global" view="3e5370019f22120047a2d126c42e705b">ac006b20db4f1c50bde16a3b1396198b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-01 15:53:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-01 15:53:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a8006b20db4f1c50bde16a3b1396198b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_customer_out_platform_architects" name="x_snc_customer_out_platform_architects" sys_domain="global" view="3e5370019f22120047a2d126c42e705b">dc006b20db4f1c50bde16a3b13961985</sys_ui_form>
+            <sys_ui_section caption="Job Role" display_value="Job Role" name="x_snc_customer_out_platform_architects" sys_domain="global" view="3e5370019f22120047a2d126c42e705b">9c006b20db4f1c50bde16a3b13961987</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-01 15:53:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-01 15:53:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>68006b20db4f1c50bde16a3b13961995</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_customer_out_platform_architects" name="x_snc_customer_out_platform_architects" sys_domain="global" view="3e5370019f22120047a2d126c42e705b">dc006b20db4f1c50bde16a3b13961985</sys_ui_form>
+            <sys_ui_section caption="Contact Details" display_value="Contact Details" name="x_snc_customer_out_platform_architects" sys_domain="global" view="3e5370019f22120047a2d126c42e705b">a8006b20db4f1c50bde16a3b13961990</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-01 15:53:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_customer_out_platform_architects</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-01 15:53:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dc006b20db4f1c50bde16a3b13961985</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_customer_out_platform_architects</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Customer Outcomes Assignment" source="x_snc_customer_out">7d70ba10db879850bde16a3b13961924</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
+            <sys_update_name>sys_ui_form_sections_dc006b20db4f1c50bde16a3b13961985</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-01 15:53:38</sys_updated_on>
+            <sys_user/>
+            <view display_value="Human Resources" name="human_resources">3e5370019f22120047a2d126c42e705b</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

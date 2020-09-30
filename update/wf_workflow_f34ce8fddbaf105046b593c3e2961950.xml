@@ -1,0 +1,1431 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"stages":{},"subflows":[],"activities":{},"ends":["88c4c63ddbab505046b593c3e296190e"]}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition table="x_snc_customer_out_work_assignment">pa_assignedVALCHANGES^EQ<item endquery="false" field="pa_assigned" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <condition_type>run_match</condition_type>
+        <description/>
+        <expected_sequences>4cc4c63ddbab505046b593c3e296190d,04c4c63ddbab505046b593c3e2961904,80c4c63ddbab505046b593c3e296190a,88c4c63ddbab505046b593c3e296190e</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>4cc4c63ddbab505046b593c3e296190d,04c4c63ddbab505046b593c3e2961904,80c4c63ddbab505046b593c3e296190a,4cc4c63ddbab505046b593c3e2961908,88c4c63ddbab505046b593c3e296190e,c4c4c63ddbab505046b593c3e2961906,ccc4c63ddbab505046b593c3e296190a,40c4c63ddbab505046b593c3e296190d,08c4c63ddbab505046b593c3e2961907,04c4c63ddbab505046b593c3e296190c</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>Assign PA Resource and Time allocations</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration/>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field/>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">4cc4c63ddbab505046b593c3e296190d</start>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>08c4cef9dbab505046b593c3e2961961</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 03:01:00</sys_updated_on>
+        <table>x_snc_customer_out_work_assignment</table>
+        <timezone/>
+        <validated>true</validated>
+        <workflow display_value="Assign PA Resource and Time allocations">f34ce8fddbaf105046b593c3e2961950</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description/>
+        <name>Assign PA Resource and Time allocations</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-29 20:32:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f34ce8fddbaf105046b593c3e2961950</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assign PA Resource and Time allocations</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Customer Outcomes Assignment" source="x_snc_customer_out">7d70ba10db879850bde16a3b13961924</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
+        <sys_update_name>wf_workflow_f34ce8fddbaf105046b593c3e2961950</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-29 20:32:19</sys_updated_on>
+        <table>x_snc_customer_out_work_assignment</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>4cc4c63ddbab505046b593c3e296190d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Assign PA Resource and Time allocations">08c4cef9dbab505046b593c3e2961961</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=4cc4c63ddbab505046b593c3e296190d"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">4cc4c63ddbab505046b593c3e296190d</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>04c4c63ddbab505046b593c3e296190e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Check Engagement Type is Enterprise SKU</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>04c4c63ddbab505046b593c3e2961904</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Assign PA Resource and Time allocations">08c4cef9dbab505046b593c3e2961961</workflow_version>
+        <x>88</x>
+        <y>149</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=04c4c63ddbab505046b593c3e2961904"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>04c4c63ddbab505046b593c3e2961904</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>44c4c63ddbab505046b593c3e2961905</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>04c4c63ddbab505046b593c3e2961904</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>80c4c63ddbab505046b593c3e2961905</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>04c4c63ddbab505046b593c3e2961904</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>88c4c63ddbab505046b593c3e2961904</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <value>engagement_type=Enterprise Success Package^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>04c4c63ddbab505046b593c3e2961904</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>88c4c63ddbab505046b593c3e2961904</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <value>engagement_type=Enterprise Success Package^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>04c4c63ddbab505046b593c3e2961904</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>80c4c63ddbab505046b593c3e2961905</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>04c4c63ddbab505046b593c3e2961904</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>44c4c63ddbab505046b593c3e2961905</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Check Engagement Type is Enterprise SKU">04c4c63ddbab505046b593c3e2961904</activity>
+        <condition>activity.result == 'no'</condition>
+        <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>No</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>4cc4c63ddbab505046b593c3e2961905</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Check Engagement Type is Enterprise SKU">04c4c63ddbab505046b593c3e2961904</activity>
+        <condition>activity.result == 'yes'</condition>
+        <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Yes</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>c8c4c63ddbab505046b593c3e2961905</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>5</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Check Engagement Type is Premium SKU</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>ccc4c63ddbab505046b593c3e296190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Assign PA Resource and Time allocations">08c4cef9dbab505046b593c3e2961961</workflow_version>
+        <x>410</x>
+        <y>609</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=ccc4c63ddbab505046b593c3e296190a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ccc4c63ddbab505046b593c3e296190a</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>04c4c63ddbab505046b593c3e296190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ccc4c63ddbab505046b593c3e296190a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>40c4c63ddbab505046b593c3e296190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <value>engagement_type=Premium Success Package^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ccc4c63ddbab505046b593c3e296190a</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>c4c4c63ddbab505046b593c3e296190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ccc4c63ddbab505046b593c3e296190a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>40c4c63ddbab505046b593c3e296190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <value>engagement_type=Premium Success Package^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ccc4c63ddbab505046b593c3e296190a</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>04c4c63ddbab505046b593c3e296190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ccc4c63ddbab505046b593c3e296190a</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>c4c4c63ddbab505046b593c3e296190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Check Engagement Type is Premium SKU">ccc4c63ddbab505046b593c3e296190a</activity>
+        <condition>activity.result == 'no'</condition>
+        <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>No</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>c8c4c63ddbab505046b593c3e296190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Check Engagement Type is Premium SKU">ccc4c63ddbab505046b593c3e296190a</activity>
+        <condition>activity.result == 'yes'</condition>
+        <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Yes</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>4cc4c63ddbab505046b593c3e296190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>4</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Check Engagement Type is Professional SKU</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>4cc4c63ddbab505046b593c3e2961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Assign PA Resource and Time allocations">08c4cef9dbab505046b593c3e2961961</workflow_version>
+        <x>319</x>
+        <y>320</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=4cc4c63ddbab505046b593c3e2961908"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4cc4c63ddbab505046b593c3e2961908</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>44c4c63ddbab505046b593c3e2961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4cc4c63ddbab505046b593c3e2961908</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>80c4c63ddbab505046b593c3e2961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4cc4c63ddbab505046b593c3e2961908</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>ccc4c63ddbab505046b593c3e2961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <value>engagement_type=Professional Success Package^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4cc4c63ddbab505046b593c3e2961908</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>ccc4c63ddbab505046b593c3e2961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <value>engagement_type=Professional Success Package^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4cc4c63ddbab505046b593c3e2961908</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>80c4c63ddbab505046b593c3e2961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4cc4c63ddbab505046b593c3e2961908</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>44c4c63ddbab505046b593c3e2961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Check Engagement Type is Professional SKU">4cc4c63ddbab505046b593c3e2961908</activity>
+        <condition>activity.result == 'no'</condition>
+        <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>No</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>c8c4c63ddbab505046b593c3e2961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Check Engagement Type is Professional SKU">4cc4c63ddbab505046b593c3e2961908</activity>
+        <condition>activity.result == 'yes'</condition>
+        <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Yes</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>48c4c63ddbab505046b593c3e2961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>6</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Check Engagement Type is Project</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>08c4c63ddbab505046b593c3e2961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Assign PA Resource and Time allocations">08c4cef9dbab505046b593c3e2961961</workflow_version>
+        <x>839</x>
+        <y>626</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=08c4c63ddbab505046b593c3e2961907"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>08c4c63ddbab505046b593c3e2961907</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>00c4c63ddbab505046b593c3e2961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>08c4c63ddbab505046b593c3e2961907</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>4cc4c63ddbab505046b593c3e2961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>08c4c63ddbab505046b593c3e2961907</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>88c4c63ddbab505046b593c3e2961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <value>engagement_type=Project^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>08c4c63ddbab505046b593c3e2961907</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>88c4c63ddbab505046b593c3e2961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <value>engagement_type=Project^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>08c4c63ddbab505046b593c3e2961907</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>4cc4c63ddbab505046b593c3e2961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>08c4c63ddbab505046b593c3e2961907</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>00c4c63ddbab505046b593c3e2961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Check Engagement Type is Project">08c4c63ddbab505046b593c3e2961907</activity>
+        <condition>activity.result == 'no'</condition>
+        <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>No</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>84c4c63ddbab505046b593c3e2961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Check Engagement Type is Project">08c4c63ddbab505046b593c3e2961907</activity>
+        <condition>activity.result == 'yes'</condition>
+        <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Yes</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>04c4c63ddbab505046b593c3e2961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>7</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Create PA Allocation record for Enterprise SKU</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>80c4c63ddbab505046b593c3e296190a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:59:03</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Assign PA Resource and Time allocations">08c4cef9dbab505046b593c3e2961961</workflow_version>
+        <x>420</x>
+        <y>87</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=80c4c63ddbab505046b593c3e296190a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>80c4c63ddbab505046b593c3e296190a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>04c4c63ddbab505046b593c3e296190a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:59:03</sys_updated_on>
+        <value>// Creating a new record on the PA Allocation table to assign hrs to resources and tie up to the work assignment request.&#13;
+&#13;
+var paname = current.pa_assigned;&#13;
+gs.info("The name of the platform architect assigned is:" + paname);&#13;
+var worknumber = current.sys_id;&#13;
+gs.info("The work assignment number is:" + worknumber);&#13;
+var grallocation = new GlideRecord('x_snc_customer_out_pa_allocations');&#13;
+grallocation.initialize();&#13;
+grallocation.setValue('total_hours','8');&#13;
+grallocation.setValue('name', paname);&#13;
+grallocation.setValue('work_assignment', worknumber);&#13;
+grallocation.insert();&#13;
+</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>80c4c63ddbab505046b593c3e296190a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>04c4c63ddbab505046b593c3e296190a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:59:03</sys_updated_on>
+        <value>// Creating a new record on the PA Allocation table to assign hrs to resources and tie up to the work assignment request.&#13;
+&#13;
+var paname = current.pa_assigned;&#13;
+gs.info("The name of the platform architect assigned is:" + paname);&#13;
+var worknumber = current.sys_id;&#13;
+gs.info("The work assignment number is:" + worknumber);&#13;
+var grallocation = new GlideRecord('x_snc_customer_out_pa_allocations');&#13;
+grallocation.initialize();&#13;
+grallocation.setValue('total_hours','8');&#13;
+grallocation.setValue('name', paname);&#13;
+grallocation.setValue('work_assignment', worknumber);&#13;
+grallocation.insert();&#13;
+</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Create PA Allocation record for Enterprise SKU">80c4c63ddbab505046b593c3e296190a</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>08c4c63ddbab505046b593c3e296190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>9</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Create PA Allocation record for Premium SKU</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>40c4c63ddbab505046b593c3e296190d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:59:40</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Assign PA Resource and Time allocations">08c4cef9dbab505046b593c3e2961961</workflow_version>
+        <x>819</x>
+        <y>310</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=40c4c63ddbab505046b593c3e296190d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>40c4c63ddbab505046b593c3e296190d</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>c0c4c63ddbab505046b593c3e296190d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:59:40</sys_updated_on>
+        <value>// Creating a new record on the PA Allocation table to assign hrs to resources and tie up to the work assignment request.&#13;
+&#13;
+var paname = current.pa_assigned;&#13;
+gs.info("The name of the platform architect assigned is:" + paname);&#13;
+var worknumber = current.sys_id;&#13;
+gs.info("The work assignment number is:" + worknumber);&#13;
+var grallocation = new GlideRecord('x_snc_customer_out_pa_allocations');&#13;
+grallocation.initialize();&#13;
+grallocation.setValue('total_hours','32');&#13;
+grallocation.setValue('name',paname);&#13;
+grallocation.setValue('work_assignment',worknumber);&#13;
+grallocation.insert();&#13;
+</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>40c4c63ddbab505046b593c3e296190d</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>c0c4c63ddbab505046b593c3e296190d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:59:40</sys_updated_on>
+        <value>// Creating a new record on the PA Allocation table to assign hrs to resources and tie up to the work assignment request.&#13;
+&#13;
+var paname = current.pa_assigned;&#13;
+gs.info("The name of the platform architect assigned is:" + paname);&#13;
+var worknumber = current.sys_id;&#13;
+gs.info("The work assignment number is:" + worknumber);&#13;
+var grallocation = new GlideRecord('x_snc_customer_out_pa_allocations');&#13;
+grallocation.initialize();&#13;
+grallocation.setValue('total_hours','32');&#13;
+grallocation.setValue('name',paname);&#13;
+grallocation.setValue('work_assignment',worknumber);&#13;
+grallocation.insert();&#13;
+</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Create PA Allocation record for Premium SKU">40c4c63ddbab505046b593c3e296190d</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>c4c4c63ddbab505046b593c3e296190d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>8</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Create PA Allocation record for Professional SKU</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>c4c4c63ddbab505046b593c3e2961906</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:59:23</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Assign PA Resource and Time allocations">08c4cef9dbab505046b593c3e2961961</workflow_version>
+        <x>507</x>
+        <y>209</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=c4c4c63ddbab505046b593c3e2961906"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c4c4c63ddbab505046b593c3e2961906</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>c8c4c63ddbab505046b593c3e2961906</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:59:23</sys_updated_on>
+        <value>// Creating a new record on the PA Allocation table to assign hrs to resources and tie up to the work assignment request.&#13;
+&#13;
+var paname = current.pa_assigned;&#13;
+gs.info("The name of the platform architect assigned is:" + paname);&#13;
+var worknumber = current.sys_id;&#13;
+gs.info("The work assignment number is:" + worknumber);&#13;
+var grallocation = new GlideRecord('x_snc_customer_out_pa_allocations');&#13;
+grallocation.initialize();&#13;
+grallocation.setValue('total_hours','2');&#13;
+grallocation.setValue('name',paname);&#13;
+grallocation.setValue('work_assignment', worknumber);&#13;
+grallocation.insert();&#13;
+</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c4c4c63ddbab505046b593c3e2961906</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>c8c4c63ddbab505046b593c3e2961906</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:59:23</sys_updated_on>
+        <value>// Creating a new record on the PA Allocation table to assign hrs to resources and tie up to the work assignment request.&#13;
+&#13;
+var paname = current.pa_assigned;&#13;
+gs.info("The name of the platform architect assigned is:" + paname);&#13;
+var worknumber = current.sys_id;&#13;
+gs.info("The work assignment number is:" + worknumber);&#13;
+var grallocation = new GlideRecord('x_snc_customer_out_pa_allocations');&#13;
+grallocation.initialize();&#13;
+grallocation.setValue('total_hours','2');&#13;
+grallocation.setValue('name',paname);&#13;
+grallocation.setValue('work_assignment', worknumber);&#13;
+grallocation.insert();&#13;
+</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Create PA Allocation record for Professional SKU">c4c4c63ddbab505046b593c3e2961906</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>40c4c63ddbab505046b593c3e2961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>10</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Create PA Allocation record for Projects</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>04c4c63ddbab505046b593c3e296190c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:59:52</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Assign PA Resource and Time allocations">08c4cef9dbab505046b593c3e2961961</workflow_version>
+        <x>1055</x>
+        <y>477</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=04c4c63ddbab505046b593c3e296190c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>04c4c63ddbab505046b593c3e296190c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>84c4c63ddbab505046b593c3e296190c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:59:52</sys_updated_on>
+        <value>// Creating a new record on the PA Allocation table to assign hrs to resources and tie up to the work assignment request.&#13;
+&#13;
+var paname = current.pa_assigned;&#13;
+var projecthrs = current.project_allocation;&#13;
+gs.info("The name of the platform architect assigned is:" + paname);&#13;
+var worknumber = current.sys_id;&#13;
+gs.info("The work assignment number is:" + worknumber);&#13;
+var grallocation = new GlideRecord('x_snc_customer_out_pa_allocations');&#13;
+grallocation.initialize();&#13;
+grallocation.setValue('total_hours',projecthrs);&#13;
+grallocation.setValue('name',paname);&#13;
+grallocation.setValue('work_assignment',worknumber);&#13;
+grallocation.insert();&#13;
+</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>04c4c63ddbab505046b593c3e296190c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>84c4c63ddbab505046b593c3e296190c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:59:52</sys_updated_on>
+        <value>// Creating a new record on the PA Allocation table to assign hrs to resources and tie up to the work assignment request.&#13;
+&#13;
+var paname = current.pa_assigned;&#13;
+var projecthrs = current.project_allocation;&#13;
+gs.info("The name of the platform architect assigned is:" + paname);&#13;
+var worknumber = current.sys_id;&#13;
+gs.info("The work assignment number is:" + worknumber);&#13;
+var grallocation = new GlideRecord('x_snc_customer_out_pa_allocations');&#13;
+grallocation.initialize();&#13;
+grallocation.setValue('total_hours',projecthrs);&#13;
+grallocation.setValue('name',paname);&#13;
+grallocation.setValue('work_assignment',worknumber);&#13;
+grallocation.insert();&#13;
+</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Create PA Allocation record for Projects">04c4c63ddbab505046b593c3e296190c</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>88c4c63ddbab505046b593c3e296190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>88c4c63ddbab505046b593c3e296190e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Assign PA Resource and Time allocations">08c4cef9dbab505046b593c3e2961961</workflow_version>
+        <x>1396</x>
+        <y>48</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=88c4c63ddbab505046b593c3e296190e"/>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="No">c8c4c63ddbab505046b593c3e2961909</condition>
+        <from display_value="Check Engagement Type is Professional SKU">4cc4c63ddbab505046b593c3e2961908</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>04c4c63ddbab505046b593c3e2961910</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <to display_value="Check Engagement Type is Premium SKU">ccc4c63ddbab505046b593c3e296190a</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Yes">04c4c63ddbab505046b593c3e2961908</condition>
+        <from display_value="Check Engagement Type is Project">08c4c63ddbab505046b593c3e2961907</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>0cc4c63ddbab505046b593c3e2961910</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <to display_value="Create PA Allocation record for Projects">04c4c63ddbab505046b593c3e296190c</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">c4c4c63ddbab505046b593c3e296190d</condition>
+        <from display_value="Create PA Allocation record for Premium SKU">40c4c63ddbab505046b593c3e296190d</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>0cc4c63ddbab505046b593c3e2961911</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <to display_value="End">88c4c63ddbab505046b593c3e296190e</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="No">c8c4c63ddbab505046b593c3e296190b</condition>
+        <from display_value="Check Engagement Type is Premium SKU">ccc4c63ddbab505046b593c3e296190a</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>40c4c63ddbab505046b593c3e2961911</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <to display_value="Check Engagement Type is Project">08c4c63ddbab505046b593c3e2961907</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="No">4cc4c63ddbab505046b593c3e2961905</condition>
+        <from display_value="Check Engagement Type is Enterprise SKU">04c4c63ddbab505046b593c3e2961904</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>48c4c63ddbab505046b593c3e2961910</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <to display_value="Check Engagement Type is Professional SKU">4cc4c63ddbab505046b593c3e2961908</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">08c4c63ddbab505046b593c3e296190a</condition>
+        <from display_value="Create PA Allocation record for Enterprise SKU">80c4c63ddbab505046b593c3e296190a</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>48c4c63ddbab505046b593c3e2961911</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <to display_value="End">88c4c63ddbab505046b593c3e296190e</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Yes">48c4c63ddbab505046b593c3e2961909</condition>
+        <from display_value="Check Engagement Type is Professional SKU">4cc4c63ddbab505046b593c3e2961908</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>80c4c63ddbab505046b593c3e2961910</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <to display_value="Create PA Allocation record for Professional SKU">c4c4c63ddbab505046b593c3e2961906</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">40c4c63ddbab505046b593c3e2961907</condition>
+        <from display_value="Create PA Allocation record for Professional SKU">c4c4c63ddbab505046b593c3e2961906</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>80c4c63ddbab505046b593c3e2961912</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <to display_value="End">88c4c63ddbab505046b593c3e296190e</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">88c4c63ddbab505046b593c3e296190c</condition>
+        <from display_value="Create PA Allocation record for Projects">04c4c63ddbab505046b593c3e296190c</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>84c4c63ddbab505046b593c3e2961911</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <to display_value="End">88c4c63ddbab505046b593c3e296190e</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="No">84c4c63ddbab505046b593c3e2961908</condition>
+        <from display_value="Check Engagement Type is Project">08c4c63ddbab505046b593c3e2961907</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>8cc4c63ddbab505046b593c3e2961910</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <to display_value="End">88c4c63ddbab505046b593c3e296190e</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Yes">4cc4c63ddbab505046b593c3e296190b</condition>
+        <from display_value="Check Engagement Type is Premium SKU">ccc4c63ddbab505046b593c3e296190a</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>c0c4c63ddbab505046b593c3e2961911</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <to display_value="Create PA Allocation record for Premium SKU">40c4c63ddbab505046b593c3e296190d</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Yes">c8c4c63ddbab505046b593c3e2961905</condition>
+        <from display_value="Check Engagement Type is Enterprise SKU">04c4c63ddbab505046b593c3e2961904</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>c4c4c63ddbab505046b593c3e2961910</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <to display_value="Create PA Allocation record for Enterprise SKU">80c4c63ddbab505046b593c3e296190a</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">04c4c63ddbab505046b593c3e296190e</condition>
+        <from display_value="Begin">4cc4c63ddbab505046b593c3e296190d</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>ccc4c63ddbab505046b593c3e2961911</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <to display_value="Check Engagement Type is Enterprise SKU">04c4c63ddbab505046b593c3e2961904</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 02:58:44</sys_created_on>
+        <sys_id>0cc4cef9dbab505046b593c3e2961961</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 02:58:44</sys_updated_on>
+        <workflow_version display_value="Assign PA Resource and Time allocations">08c4cef9dbab505046b593c3e2961961</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=f34ce8fddbaf105046b593c3e2961950^sys_id!=08c4cef9dbab505046b593c3e2961961">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>

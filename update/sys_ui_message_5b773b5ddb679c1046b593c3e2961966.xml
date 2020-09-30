@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application/>
+        <key>This data is automatically refreshed so customers always have access to the last six months of Benchmark data. ServiceNow protects the benchmark usage data using the same policies, procedures, tools and techniques used to protect your instance(s).</key>
+        <language>en</language>
+        <message>This data is automatically refreshed so customers always have access to the last six months of Benchmark data. ServiceNow protects the benchmark usage data using the same policies, procedures, tools and techniques used to protect your instance(s).</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-28 22:03:04</sys_created_on>
+        <sys_id>5b773b5ddb679c1046b593c3e2961966</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>This data is automatically refreshed so customers always have access to the last six months of Benchmark data. ServiceNow protects the benchmark usage data using the same policies, procedures, tools and techniques used to protect your instance(s).</sys_name>
+        <sys_package display_value="Customer Outcomes Assignment" source="x_snc_customer_out">7d70ba10db879850bde16a3b13961924</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
+        <sys_update_name>sys_ui_message_5b773b5ddb679c1046b593c3e2961966</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-28 22:03:04</sys_updated_on>
+    </sys_ui_message>
+</record_update>

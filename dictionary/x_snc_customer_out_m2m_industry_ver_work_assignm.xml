@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Customer Out M2m Industry Ver Work Assignm" max_length="40" name="x_snc_customer_out_m2m_industry_ver_work_assignm" type="collection">
+        <element attributes="encode_utf8=false" label="Industry Vertical Experience" max_length="32" name="industry_vertical_experience" reference="x_snc_customer_out_industry_vertical_experience" type="reference"/>
+        <element attributes="encode_utf8=false" label="Work Assignment" max_length="32" name="work_assignment" reference="x_snc_customer_out_work_assignment" type="reference"/>
+        <index name="index">
+            <element name="work_assignment"/>
+        </index>
+        <index name="index2">
+            <element name="industry_vertical_experience"/>
+        </index>
+    </element>
+</database>

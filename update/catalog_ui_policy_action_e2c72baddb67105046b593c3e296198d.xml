@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Work Assignment Request">821654f4db075c50bde16a3b13961935</catalog_item>
+        <catalog_variable>IO:83e567a9db67105046b593c3e2961909</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-29 15:33:15</sys_created_on>
+        <sys_id>e2c72baddb67105046b593c3e296198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>project_allocation</sys_name>
+        <sys_package display_value="Customer Outcomes Assignment" source="x_snc_customer_out">7d70ba10db879850bde16a3b13961924</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_e2c72baddb67105046b593c3e296198d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-29 15:33:15</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Set Project allocation Field visible and mandatory for engagement type of project ">e087af6ddb67105046b593c3e2961910</ui_policy>
+        <variable>project_allocation</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

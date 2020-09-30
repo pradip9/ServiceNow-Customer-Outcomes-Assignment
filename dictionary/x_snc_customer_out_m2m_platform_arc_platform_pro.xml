@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Customer Out M2m Platform Arc Platform Pro" max_length="40" name="x_snc_customer_out_m2m_platform_arc_platform_pro" type="collection">
+        <element attributes="encode_utf8=false" label="Platform Architects" max_length="32" name="platform_architects" reference="x_snc_customer_out_platform_architects" type="reference"/>
+        <element attributes="encode_utf8=false" label="Platform Products" max_length="32" name="platform_products" reference="x_snc_customer_out_platform_products" type="reference"/>
+        <index name="index">
+            <element name="platform_products"/>
+        </index>
+        <index name="index2">
+            <element name="platform_architects"/>
+        </index>
+    </element>
+</database>

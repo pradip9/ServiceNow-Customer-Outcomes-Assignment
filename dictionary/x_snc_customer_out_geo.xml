@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="GEO" max_length="40" name="x_snc_customer_out_geo" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Name" max_length="100" name="name" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-31 18:02:15</sys_created_on>
+        <sys_id>f6d3be18db879850bde16a3b139619f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_customer_out_work_assignment.x_snc_customer_out.customer outcomes assignment admin</sys_name>
+        <sys_package display_value="Customer Outcomes Assignment" source="x_snc_customer_out">7d70ba10db879850bde16a3b13961924</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
+        <sys_security_acl display_value="x_snc_customer_out_work_assignment">72d3be18db879850bde16a3b139619ee</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_f6d3be18db879850bde16a3b139619f2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-31 18:02:15</sys_updated_on>
+        <sys_user_role display_value="x_snc_customer_out.customer outcomes assignment admin" name="x_snc_customer_out.customer outcomes assignment admin">97517e9cdb479850bde16a3b139619d9</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

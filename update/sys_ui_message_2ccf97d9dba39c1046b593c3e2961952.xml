@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application/>
+        <key>&lt;span&gt;$18cf17d905a39c10d3384fa9671ea1ea{gs.getMessage("Add relevant tags to the Meta field using comma-separated list of tags. These tags will be used while searching the item, {0}", "&lt;a href='itsm_context_help.do?help_resource=CSHelp:Service_Catalog_Sear</key>
+        <language>en</language>
+        <message>&lt;span&gt;$18cf17d905a39c10d3384fa9671ea1ea{gs.getMessage("Add relevant tags to the Meta field using comma-separated list of tags. These tags will be used while searching the item, {0}", "&lt;a href='itsm_context_help.do?help_resource=CSHelp:Service_Catalog_Search-Item' target='_blank'&gt;"+gs.getMessage('Click here')+"&lt;/a&gt;")}&lt;/span&gt;</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-28 20:19:23</sys_created_on>
+        <sys_id>2ccf97d9dba39c1046b593c3e2961952</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>&lt;span&gt;$18cf17d905a39c10d3384fa9671ea1ea{gs.getMessage("Add relevant tags to the Meta field using comma-separated list of tags. These tags will be used while searching the item, {0}", "&lt;a href='itsm_context_help.do?help_resource=CSHelp:Service_Catalog_Sear</sys_name>
+        <sys_package display_value="Customer Outcomes Assignment" source="x_snc_customer_out">7d70ba10db879850bde16a3b13961924</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
+        <sys_update_name>sys_ui_message_2ccf97d9dba39c1046b593c3e2961952</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-28 20:19:23</sys_updated_on>
+    </sys_ui_message>
+</record_update>

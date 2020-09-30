@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_snc_customer_out_work_assignment</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Assign PA Resources </name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // Push PA Resource users to array
+    var userArray = [];
+
+    // Capture the PA Skillsets from Work Assignment record
+    var platProdArray = [];
+	
+	// Capture the PA skillset from Work Assignment record
+	
+	var paskillset = [];
+
+    // Looking up user based on geo and skillsets
+    var targetUser = new GlideRecord('sys_user');
+
+    // Get GEO from current Work Assignment
+    var assignGEO = current.geo;
+
+    // Get Products from current Work Assignment
+    platProdArray = current.platform_products.split(",");
+	
+	// Get PA skillsets from current Work Assignment
+	paskillset = current.pa_skillset.split(",");
+	
+	//Capture Array values in log to check for any errors
+	gs.info("Array Values: " + platProdArray);
+
+    var queryString = 'x_snc_customer_out_u_geo=' + assignGEO;
+    for (i = 0; i < platProdArray.length; i++) {
+        var productSkill = platProdArray[i];
+        if (productSkill) {
+            queryString += '^u_product_skillsetLIKE' + productSkill;
+        }
+		
+	for (i=0; i< paskillset.length; i++)
+		{
+		var paskill =paskillset[i];
+		if (paskill) {
+			queryString += '^x_snc_customer_out_pa_skillsetLIKE' +paskill;
+		}	
+		}
+    }
+	gs.info("Query String: " + queryString);
+    //u_product_skillsetLIKEab89c4e4db43d850bde16a3b13961921
+    //targetUser.addQuery('x_snc_customer_out_u_geo', assignGEO);
+	targetUser.addEncodedQuery(queryString.toString());
+    targetUser.addActiveQuery();
+    targetUser.orderByDesc();
+    targetUser.query();
+    while (targetUser.next()) {
+
+
+        userArray.push(targetUser.getUniqueValue());
+        current.setValue('pa_sugesstions', userArray);
+    }
+
+    current.update();
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-09 23:03:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>838c8ed3db4b1c10bde16a3b1396190b</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name>Assign PA Resources </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Customer Outcomes Assignment" source="x_snc_customer_out">7d70ba10db879850bde16a3b13961924</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
+        <sys_update_name>sys_script_838c8ed3db4b1c10bde16a3b1396190b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-28 21:56:37</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=838c8ed3db4b1c10bde16a3b1396190b"/>
+</record_update>

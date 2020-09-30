@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Work Assignment" max_length="40" name="x_snc_customer_out_work_assignment" sizeclass="6" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Are there any current challenges which the customer is facing?" max_length="900" name="current_challenges" type="string"/>
+        <element label="Engagement Details" max_length="1000" name="engagement_details" type="string"/>
+        <element label="Engagement End Date" max_length="40" name="engagement_end_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Engagement Type" max_length="40" name="engagement_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Enterprise Success Package" sequence="1" value="Enterprise Success Package"/>
+                <element inactive_on_update="false" label="Professional Success Package" sequence="2" value="Professional Success Package"/>
+                <element inactive_on_update="false" label="Premium Success Package" sequence="3" value="Premium Success Package"/>
+                <element inactive_on_update="false" label="Project" sequence="5" value="Project"/>
+                <element inactive_on_update="false" label="Presales Assistance" sequence="6" value="PreSales Assistance"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Geo" max_length="40" name="geo" reference="x_snc_customer_out_geo" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Northeast" sequence="1" value="Northeast"/>
+                <element inactive="true" inactive_on_update="true" label="Southeast" sequence="2" value="Southeast"/>
+                <element inactive="true" inactive_on_update="true" label="Midwest" sequence="3" value="Midwest"/>
+                <element inactive="true" inactive_on_update="true" label="Southwest" sequence="4" value="Southwest"/>
+                <element inactive="true" inactive_on_update="true" label="West" sequence="5" value="West"/>
+                <element inactive="true" inactive_on_update="true" label="PacificNW" sequence="6" value="PacificNW"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Industry Vertical Experience" max_length="100" name="industry_vertical_experience" reference="x_snc_customer_out_industry_vertical_experience" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list">
+            <choice/>
+        </element>
+        <element choice="3" label="Inspire Engagement Status" max_length="40" name="inspire_engagement" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="In Planning" sequence="2" value="In Planning"/>
+                <element inactive_on_update="false" label="Planned" sequence="3" value="Planned"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Is there a partner engaged with the customer? Please provide details" max_length="900" name="partner_engagement" type="string"/>
+        <element label="PA Assigned" max_length="32" name="pa_assigned" reference="sys_user" reference_qual="titleLIKEPlatform Architect^EQ" reference_qual_condition="titleLIKEPlatform Architect^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="What is the PA skillset preference?" max_length="40" name="pa_skillset" reference="x_snc_customer_out_pa_skillset" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list">
+            <choice/>
+        </element>
+        <element label="PA Sugesstions" max_length="2000" name="pa_sugesstions" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="What Platform Products are in scope?" max_length="100" name="platform_products" reference="x_snc_customer_out_platform_products" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list">
+            <choice/>
+        </element>
+        <element choice="3" default="2" label="Requested Project Allocation" max_length="40" name="project_allocation" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="2" sequence="10" value="2"/>
+                <element inactive_on_update="false" label="4" sequence="20" value="4"/>
+                <element inactive_on_update="false" label="6" sequence="30" value="6"/>
+                <element inactive_on_update="false" label="8" sequence="40" value="8"/>
+                <element inactive_on_update="false" label="10" sequence="50" value="10"/>
+                <element inactive_on_update="false" label="12" sequence="60" value="12"/>
+                <element inactive_on_update="false" label="14" sequence="70" value="14"/>
+                <element inactive_on_update="false" label="16" sequence="80" value="16"/>
+                <element inactive_on_update="false" label="18" sequence="90" value="18"/>
+                <element inactive_on_update="false" label="20" sequence="100" value="20"/>
+                <element inactive_on_update="false" label="22" sequence="110" value="22"/>
+                <element inactive_on_update="false" label="24" sequence="120" value="24"/>
+                <element inactive_on_update="false" label="26" sequence="130" value="26"/>
+                <element inactive_on_update="false" label="28" sequence="140" value="28"/>
+                <element inactive_on_update="false" label="30" sequence="150" value="30"/>
+                <element inactive_on_update="false" label="32" sequence="160" value="32"/>
+                <element inactive_on_update="false" label="34" sequence="170" value="34"/>
+                <element inactive_on_update="false" label="36" sequence="180" value="36"/>
+                <element inactive_on_update="false" label="38" sequence="190" value="38"/>
+                <element inactive_on_update="false" label="40" sequence="200" value="40"/>
+            </choice>
+        </element>
+        <element label="SA Assigned" max_length="32" name="sa_assigned" reference="sys_user" reference_qual="titleLIKESuccess Architect^EQ" reference_qual_condition="titleLIKESuccess Architect^EQ" type="reference"/>
+        <element label="SA Sugesstions" max_length="2000" name="sa_sugesstions" reference="sys_user" type="glide_list"/>
+        <element label=" Engagement Start Date" max_length="40" name="start_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="yes" label="Has an inspire engagement completed with the customer?" max_length="40" name="u_choice_1" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+                <element inactive_on_update="false" label="Planned" sequence="2" value="planned"/>
+                <element inactive_on_update="false" label="In Planning" sequence="3" value="in planning"/>
+            </choice>
+        </element>
+    </element>
+</database>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="start_date" label=" Engagement Start Date" language="en" table="x_snc_customer_out_work_assignment">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>start_date</element>
+            <help/>
+            <hint/>
+            <label> Engagement Start Date</label>
+            <language>en</language>
+            <name>x_snc_customer_out_work_assignment</name>
+            <plural> Engagement Start Dates</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-24 05:25:18</sys_created_on>
+            <sys_id>eccc6f7bdb5b5010bde16a3b1396199e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name> Engagement Start Date</sys_name>
+            <sys_package display_value="Customer Outcomes Assignment" source="x_snc_customer_out">7d70ba10db879850bde16a3b13961924</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_customer_out_work_assignment_start_date_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-24 05:25:37</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
