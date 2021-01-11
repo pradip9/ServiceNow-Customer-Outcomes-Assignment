@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="PA Allocations" max_length="40" name="x_snc_customer_out_pa_allocations" type="collection">
+        <element label="Aggregate Hours" max_length="1000" name="aggregate_hours" type="integer"/>
         <element label="Name" max_length="32" name="name" reference="sys_user" type="reference"/>
         <element label="Total Hours" max_length="1000" name="total_hours" type="integer"/>
         <element label="Work Assignment" max_length="32" name="work_assignment" reference="x_snc_customer_out_work_assignment" type="reference"/>

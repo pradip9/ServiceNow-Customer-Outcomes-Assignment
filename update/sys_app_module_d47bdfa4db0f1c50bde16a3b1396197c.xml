@@ -25,7 +25,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d47bdfa4db0f1c50bde16a3b1396197c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Platform Architects</sys_name>
         <sys_overrides/>
         <sys_package display_value="Customer Outcomes Assignment" source="x_snc_customer_out">7d70ba10db879850bde16a3b13961924</sys_package>
@@ -33,7 +33,7 @@
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_update_name>sys_app_module_d47bdfa4db0f1c50bde16a3b1396197c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-01 15:33:41</sys_updated_on>
+        <sys_updated_on>2020-12-29 16:14:24</sys_updated_on>
         <timeline_page/>
         <title>Platform Architects</title>
         <uncancelable>false</uncancelable>

@@ -25,14 +25,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-08-31 19:22:44</sys_created_on>
         <sys_id>5e364bd8db0b9850bde16a3b139619bd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Platform Products</sys_name>
         <sys_package display_value="Customer Outcomes Assignment" source="x_snc_customer_out">7d70ba10db879850bde16a3b13961924</sys_package>
         <sys_policy/>
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_update_name>sys_db_object_5e364bd8db0b9850bde16a3b139619bd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-31 19:22:44</sys_updated_on>
+        <sys_updated_on>2020-12-29 16:12:17</sys_updated_on>
         <update_access>false</update_access>
         <user_role display_value="x_snc_customer_out.platform_products_user" name="x_snc_customer_out.platform_products_user">7d468f5cdb0b9850bde16a3b13961948</user_role>
         <ws_access>true</ws_access>

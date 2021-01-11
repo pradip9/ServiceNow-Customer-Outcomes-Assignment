@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Renewal Information" section_id="f7905c861be920502a2efc851a4bcb3e" sys_domain="global" table="x_snc_customer_out_work_assignment" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>renewal_date</element>
+            <position>0</position>
+            <sys_created_by>pradip.ramani</sys_created_by>
+            <sys_created_on>2021-01-07 23:15:26</sys_created_on>
+            <sys_id>4ca05c861be920502a2efc851a4bcbda</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Renewal Information" display_value="Renewal Information" name="x_snc_customer_out_work_assignment" sys_domain="global" view="Default view">f7905c861be920502a2efc851a4bcb3e</sys_ui_section>
+            <sys_updated_by>pradip.ramani</sys_updated_by>
+            <sys_updated_on>2021-01-07 23:15:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>pradip.ramani</sys_created_by>
+            <sys_created_on>2021-01-07 23:15:26</sys_created_on>
+            <sys_id>cca05c861be920502a2efc851a4bcbda</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Renewal Information" display_value="Renewal Information" name="x_snc_customer_out_work_assignment" sys_domain="global" view="Default view">f7905c861be920502a2efc851a4bcb3e</sys_ui_section>
+            <sys_updated_by>pradip.ramani</sys_updated_by>
+            <sys_updated_on>2021-01-07 23:15:26</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>renewal_considerations</element>
+            <position>2</position>
+            <sys_created_by>pradip.ramani</sys_created_by>
+            <sys_created_on>2021-01-07 23:15:26</sys_created_on>
+            <sys_id>40a05c861be920502a2efc851a4bcbdb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Renewal Information" display_value="Renewal Information" name="x_snc_customer_out_work_assignment" sys_domain="global" view="Default view">f7905c861be920502a2efc851a4bcb3e</sys_ui_section>
+            <sys_updated_by>pradip.ramani</sys_updated_by>
+            <sys_updated_on>2021-01-07 23:15:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Renewal Information</caption>
+            <header>false</header>
+            <name>x_snc_customer_out_work_assignment</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>pradip.ramani</sys_created_by>
+            <sys_created_on>2021-01-07 23:15:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f7905c861be920502a2efc851a4bcb3e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_customer_out_work_assignment</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Customer Outcomes Assignment" source="x_snc_customer_out">7d70ba10db879850bde16a3b13961924</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
+            <sys_update_name>sys_ui_section_f7905c861be920502a2efc851a4bcb3e</sys_update_name>
+            <sys_updated_by>pradip.ramani</sys_updated_by>
+            <sys_updated_on>2021-01-07 23:15:24</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

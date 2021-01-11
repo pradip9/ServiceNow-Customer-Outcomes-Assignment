@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_snc_customer_out_work_assignment</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Assign PA Resources from Related List</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // Push PA Resource users to array
+    var userArray = [];
+    var paUser = '';
+    var productSkill = '';
+	var confirmedUsers = [];
+    //var paUser1 = '';
+
+    // Capture the PA Skillsets from Work Assignment record
+    var platProdArray = [];
+
+    // Capture the PA skillset from Work Assignment record
+    var paSkillset = [];
+
+    // Looking up user based on geo
+    var targetUser = new GlideRecord('sys_user');
+
+    // Get GEO from current Work Assignment
+    var assignGEO = current.geo;
+
+    // Only search for Platform Architects
+    var patitle = "Platform Architect";
+
+    // Get Products from current Work Assignment
+    platProdArray = current.platform_products.split(',');
+
+    // Get PA skillsets from current Work Assignment
+    paSkillset = current.pa_skillset.split(",");
+
+    // Start building the query string to compare the geo from the workassignment to the user record
+    var queryString = 'x_snc_customer_out_u_geo=' + assignGEO;
+    queryString += '^titleLIKE' + patitle;
+    gs.info("Query String: " + queryString);
+    targetUser.addEncodedQuery(queryString.toString());
+    targetUser.addActiveQuery();
+    targetUser.orderByDesc();
+    targetUser.query();
+    var count = targetUser.getRowCount();
+    gs.info("User count: " + count);
+
+    while (targetUser.next()) {
+        if (count > 1) {
+            userArray.push(targetUser.getUniqueValue());
+            gs.info("The values in the user array are: " + userArray);
+        } else {
+            userArray = targetUser.getUniqueValue().toString();
+        }
+
+
+        // Start the comparison of the user id retrieved to the product skillset table
+        var targetProduct = new GlideRecord('x_snc_customer_out_m2m_users_platform_products');
+
+        gs.info("Is array? " + Array.isArray(userArray));
+        gs.info("User Array value: " + userArray);
+        if (Array.isArray(userArray)) {
+            platProdArray.forEach(function(ppa, index) {
+                userArray.forEach(function(user, index) {
+                    var product = getPlatProd(ppa.toString(), user.toString());
+                    var productUser = product.getValue('user');
+                    gs.info("Product User: " + productUser);
+                    gs.info("The value of the platform product is:" + ppa);
+                    gs.info("The value of the user is:" + user);
+                    if (user != productUser) {
+                        gs.info("Nothing to see here");
+                    } else {
+						confirmedUsers.push(user);
+                        queryString = 'user=' + user + '^platform_productsLIKE' + ppa.toString();
+                        gs.info("My query string for related list platform product table post usercheck is:" + queryString);
+                    }
+                });
+            });
+        } else {
+            platProdArray.forEach(function(ppa, index) {
+                paUser = userArray.toString();
+                productSkill = ppa.toString();
+                var product = getPlatProd(productSkill, paUser);
+                var productUser = product.getValue('user');
+                gs.info("Product User: " + productUser);
+                gs.info("The value of the platform product is:" + productSkill);
+                gs.info("The value of the user is:" + paUser);
+                if (paUser != productUser) {
+                    gs.info("Nothing to see here");
+                } else {
+					confirmedUsers.push(user);
+                    queryString = 'user=' + paUser + '^platform_productsLIKE' + productSkill.toString();
+                    gs.info("My query string for related list platform product table post usercheck is:" + queryString);
+                }
+            });
+        }
+    }
+
+
+    function getPlatProd(productID, user) {
+        var platProd = new GlideRecord('x_snc_customer_out_m2m_users_platform_products');
+        platProd.addQuery('platform_products', productID);
+        platProd.addQuery('user', user);
+        platProd.query();
+        gs.info(platProd.getEncodedQuery());
+        if (platProd.next()) {
+            return platProd;
+        }
+
+    }
+
+    //     function getPlatSkill(skillID, user) {
+    //         var platSkill = new GlideRecord('x_snc_customer_out_m2m_pa_skillsets_users');
+    //         platSkill.addQuery('pa_skillset', skillID);
+    //         platSkill.addQuery('user', user);
+    //         platSkill.addQuery();
+    //         gs.info(platSkill.getEncodedQuery());
+    //         if (platSkill.next()) {
+    //             return platSkill;
+    //         }
+
+    //     }
+
+
+    //     for (var e = 0; e < platProdArray.length; e++) {
+    //         for (var i = 0; i < userArray.length; i++) {
+    //             paUser = userArray[i];
+    //             var productSkill = platProdArray[e];
+    //             var product = getPlatProd(productSkill, paUser);
+    //             var productUser = product.getValue('user');
+    //             gs.info("Product User: " + productUser);
+    //             gs.info("The value of the platform product is:" + productSkill);
+    //             gs.info("The value of the user is:" + paUser);
+    //             if (paUser != productUser) {
+    //                 gs.info("Nothing to see here");
+    //             } else {
+    //                 queryString = 'user=' + productUser + '^platform_productsLIKE' + productSkill.toString();
+    //                 gs.info("My query string for related list platform product table post usercheck is:" + queryString);
+    //             }
+
+    //         }
+    //     }
+
+    current.pa_aggregate_hours = confirmedUsers.toString();
+    current.setValue('pa_suggestions', confirmedUsers);
+    current.update();
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-02 21:03:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6a205832dbaf1850bde16a3b1396199a</sys_id>
+        <sys_mod_count>77</sys_mod_count>
+        <sys_name>Assign PA Resources from Related List</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Customer Outcomes Assignment" source="x_snc_customer_out">7d70ba10db879850bde16a3b13961924</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
+        <sys_update_name>sys_script_6a205832dbaf1850bde16a3b1396199a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-05 00:37:09</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=6a205832dbaf1850bde16a3b1396199a"/>
+</record_update>

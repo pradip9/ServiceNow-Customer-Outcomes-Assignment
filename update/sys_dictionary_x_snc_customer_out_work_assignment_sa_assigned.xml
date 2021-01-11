@@ -55,15 +55,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-29 16:25:54</sys_created_on>
-        <sys_id>1eb3bfe5dbe7105046b593c3e29619ea</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_id>7c85da06dbefd05046b593c3e2961960</sys_id>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>SA Assigned</sys_name>
         <sys_package display_value="Customer Outcomes Assignment" source="x_snc_customer_out">7d70ba10db879850bde16a3b13961924</sys_package>
         <sys_policy/>
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_customer_out_work_assignment_sa_assigned</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 16:25:54</sys_updated_on>
+        <sys_updated_on>2021-01-05 01:02:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

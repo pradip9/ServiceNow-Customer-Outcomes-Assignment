@@ -3,98 +3,112 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number</element>
             <position>0</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-29 16:30:05</sys_created_on>
-            <sys_id>d3d43fa9dbe7105046b593c3e29619c9</sys_id>
+            <sys_created_by>pradip.ramani</sys_created_by>
+            <sys_created_on>2021-01-07 23:15:25</sys_created_on>
+            <sys_id>7f905c861be920502a2efc851a4bcbca</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Work Assignment" display_value="Work Assignment" name="x_snc_customer_out_work_assignment" sys_domain="global" view="Default view">be6d3698dbc79850bde16a3b13961966</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-29 16:30:05</sys_updated_on>
+            <sys_updated_by>pradip.ramani</sys_updated_by>
+            <sys_updated_on>2021-01-07 23:15:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>active</element>
             <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-29 16:30:05</sys_created_on>
-            <sys_id>57d43fa9dbe7105046b593c3e29619c9</sys_id>
+            <sys_created_by>pradip.ramani</sys_created_by>
+            <sys_created_on>2021-01-07 23:15:25</sys_created_on>
+            <sys_id>ff905c861be920502a2efc851a4bcbca</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Work Assignment" display_value="Work Assignment" name="x_snc_customer_out_work_assignment" sys_domain="global" view="Default view">be6d3698dbc79850bde16a3b13961966</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-29 16:30:05</sys_updated_on>
+            <sys_updated_by>pradip.ramani</sys_updated_by>
+            <sys_updated_on>2021-01-07 23:15:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>geo</element>
             <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-29 16:30:05</sys_created_on>
-            <sys_id>d7d43fa9dbe7105046b593c3e29619c9</sys_id>
+            <sys_created_by>pradip.ramani</sys_created_by>
+            <sys_created_on>2021-01-07 23:15:25</sys_created_on>
+            <sys_id>73905c861be920502a2efc851a4bcbcb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Work Assignment" display_value="Work Assignment" name="x_snc_customer_out_work_assignment" sys_domain="global" view="Default view">be6d3698dbc79850bde16a3b13961966</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-29 16:30:05</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-29 16:30:05</sys_created_on>
-            <sys_id>5bd43fa9dbe7105046b593c3e29619c9</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Work Assignment" display_value="Work Assignment" name="x_snc_customer_out_work_assignment" sys_domain="global" view="Default view">be6d3698dbc79850bde16a3b13961966</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-29 16:30:05</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>engagement_type</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-29 16:30:05</sys_created_on>
-            <sys_id>dbd43fa9dbe7105046b593c3e29619c9</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Work Assignment" display_value="Work Assignment" name="x_snc_customer_out_work_assignment" sys_domain="global" view="Default view">be6d3698dbc79850bde16a3b13961966</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-29 16:30:05</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>priority</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-29 16:30:05</sys_created_on>
-            <sys_id>5fd43fa9dbe7105046b593c3e29619c9</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Work Assignment" display_value="Work Assignment" name="x_snc_customer_out_work_assignment" sys_domain="global" view="Default view">be6d3698dbc79850bde16a3b13961966</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-29 16:30:05</sys_updated_on>
+            <sys_updated_by>pradip.ramani</sys_updated_by>
+            <sys_updated_on>2021-01-07 23:15:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-29 16:30:05</sys_created_on>
-            <sys_id>dfd43fa9dbe7105046b593c3e29619c9</sys_id>
+            <position>3</position>
+            <sys_created_by>pradip.ramani</sys_created_by>
+            <sys_created_on>2021-01-07 23:15:25</sys_created_on>
+            <sys_id>f3905c861be920502a2efc851a4bcbcb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Work Assignment" display_value="Work Assignment" name="x_snc_customer_out_work_assignment" sys_domain="global" view="Default view">be6d3698dbc79850bde16a3b13961966</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-29 16:30:05</sys_updated_on>
+            <sys_updated_by>pradip.ramani</sys_updated_by>
+            <sys_updated_on>2021-01-07 23:15:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>pradip.ramani</sys_created_by>
+            <sys_created_on>2021-01-07 23:15:25</sys_created_on>
+            <sys_id>77905c861be920502a2efc851a4bcbcb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Work Assignment" display_value="Work Assignment" name="x_snc_customer_out_work_assignment" sys_domain="global" view="Default view">be6d3698dbc79850bde16a3b13961966</sys_ui_section>
+            <sys_updated_by>pradip.ramani</sys_updated_by>
+            <sys_updated_on>2021-01-07 23:15:25</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>engagement_type</element>
+            <position>5</position>
+            <sys_created_by>pradip.ramani</sys_created_by>
+            <sys_created_on>2021-01-07 23:15:25</sys_created_on>
+            <sys_id>f7905c861be920502a2efc851a4bcbcb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Work Assignment" display_value="Work Assignment" name="x_snc_customer_out_work_assignment" sys_domain="global" view="Default view">be6d3698dbc79850bde16a3b13961966</sys_ui_section>
+            <sys_updated_by>pradip.ramani</sys_updated_by>
+            <sys_updated_on>2021-01-07 23:15:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>customer_name</element>
+            <position>6</position>
+            <sys_created_by>pradip.ramani</sys_created_by>
+            <sys_created_on>2021-01-07 23:15:25</sys_created_on>
+            <sys_id>7b905c861be920502a2efc851a4bcbcb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Work Assignment" display_value="Work Assignment" name="x_snc_customer_out_work_assignment" sys_domain="global" view="Default view">be6d3698dbc79850bde16a3b13961966</sys_ui_section>
+            <sys_updated_by>pradip.ramani</sys_updated_by>
+            <sys_updated_on>2021-01-07 23:15:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>7</position>
+            <sys_created_by>pradip.ramani</sys_created_by>
+            <sys_created_on>2021-01-07 23:15:25</sys_created_on>
+            <sys_id>fb905c861be920502a2efc851a4bcbcb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Work Assignment" display_value="Work Assignment" name="x_snc_customer_out_work_assignment" sys_domain="global" view="Default view">be6d3698dbc79850bde16a3b13961966</sys_ui_section>
+            <sys_updated_by>pradip.ramani</sys_updated_by>
+            <sys_updated_on>2021-01-07 23:15:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -110,7 +124,7 @@
             <sys_domain_path>/</sys_domain_path>
             <sys_id>be6d3698dbc79850bde16a3b13961966</sys_id>
             <sys_mod_count>2</sys_mod_count>
-            <sys_name>Work Assignment</sys_name>
+            <sys_name>x_snc_customer_out_work_assignment</sys_name>
             <sys_overrides/>
             <sys_package display_value="Customer Outcomes Assignment" source="x_snc_customer_out">7d70ba10db879850bde16a3b13961924</sys_package>
             <sys_policy/>

@@ -39,7 +39,7 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>d99cc86cdb43d850bde16a3b139619d1</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_name>x_snc_customer_out_industry_vertical_experience</sys_name>
             <sys_overrides/>
             <sys_package display_value="Customer Outcomes Assignment" source="x_snc_customer_out">7d70ba10db879850bde16a3b13961924</sys_package>
@@ -47,7 +47,7 @@
             <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
             <sys_update_name>sys_ui_section_d99cc86cdb43d850bde16a3b139619d1</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-01 00:29:55</sys_updated_on>
+            <sys_updated_on>2020-12-29 16:14:27</sys_updated_on>
             <sys_user/>
             <title>true</title>
             <view display_value="Default view" name="NULL">Default view</view>

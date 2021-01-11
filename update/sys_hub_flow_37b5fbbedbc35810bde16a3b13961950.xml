@@ -2,7 +2,7 @@
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
-        <active>false</active>
+        <active>true</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -10,8 +10,8 @@
         <copied_from_name/>
         <description/>
         <internal_name>assign_resources__to_work_assignment</internal_name>
-        <label_cache>[{"name":"e52c13b3-e489-4e44-9026-8f067aab86b5.Table","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"e52c13b3-e489-4e44-9026-8f067aab86b5.Record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"acb26dc3-5b34-41e7-b53c-f3da04dc82e1.Count","label":"4➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"acb26dc3-5b34-41e7-b53c-f3da04dc82e1.Table","label":"4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"acb26dc3-5b34-41e7-b53c-f3da04dc82e1.Records","label":"4➛Records","reference_display":"Records","type":"records","base_type":"records"},{"name":"876b8c31-a5a7-4572-acfe-eecb450bd747.table_name","label":"3➛Work Assignment Table","reference":"x_snc_customer_out_work_assignment","reference_display":"Work Assignment","type":"table_name","base_type":"table_name"},{"name":"876b8c31-a5a7-4572-acfe-eecb450bd747.record","label":"3➛Work Assignment Record","reference":"x_snc_customer_out_work_assignment","reference_display":"Work Assignment","type":"reference","base_type":"reference"},{"name":"a59f17fb-fc58-4ae6-81eb-7e0e3a027a37.Count","label":"2➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"a59f17fb-fc58-4ae6-81eb-7e0e3a027a37.Table","label":"2➛Customer Out M2m Users Platform Products Table","reference":"x_snc_customer_out_m2m_users_platform_products","reference_display":"Customer Out M2m Users Platform Products","type":"table_name","base_type":"table_name"},{"name":"a59f17fb-fc58-4ae6-81eb-7e0e3a027a37.Records","label":"2➛Customer Out M2m Users Platform Products Records","reference":"x_snc_customer_out_m2m_users_platform_products","reference_display":"Customer Out M2m Users Platform Products","type":"records","base_type":"records"},{"name":"888c85f3-f8ee-4ffc-8dd1-2c715cae3bbb.table_name","label":"4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"888c85f3-f8ee-4ffc-8dd1-2c715cae3bbb.record","label":"4➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"Created_1.current.platform_products","label":"trigger➛Work Assignment Record➛What Platform Products are in scope?","reference":"x_snc_customer_out_platform_products","reference_display":"Platform Products","type":"choice","base_type":"choice","parent_table_name":"x_snc_customer_out_work_assignment","column_name":"platform_products"},{"name":"6c8b5910-425e-4985-9a5b-85715b27321e.Count","label":"3➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"6c8b5910-425e-4985-9a5b-85715b27321e.Table","label":"3➛Customer Out M2m Users Platform Products Table","reference":"x_snc_customer_out_m2m_users_platform_products","reference_display":"Customer Out M2m Users Platform Products","type":"table_name","base_type":"table_name"},{"name":"6c8b5910-425e-4985-9a5b-85715b27321e.Records","label":"3➛Customer Out M2m Users Platform Products Records","reference":"x_snc_customer_out_m2m_users_platform_products","reference_display":"Customer Out M2m Users Platform Products","type":"records","base_type":"records"},{"name":"Created_1.current","label":"trigger➛Work Assignment Record","reference":"x_snc_customer_out_work_assignment","reference_display":"Work Assignment","type":"reference","base_type":"reference"},{"name":"4d45b2ee-544d-481b-93d1-0b53ee855901.table_name","label":"2➛Work Assignment Table","reference":"x_snc_customer_out_work_assignment","reference_display":"Work Assignment","type":"table_name","base_type":"table_name"},{"name":"4d45b2ee-544d-481b-93d1-0b53ee855901.record","label":"2➛Work Assignment Record","reference":"x_snc_customer_out_work_assignment","reference_display":"Work Assignment","type":"reference","base_type":"reference"},{"name":"Created_1.current.geo","label":"trigger➛Work Assignment Record➛Geo","reference":"x_snc_customer_out_geo","reference_display":"GEO","type":"reference","base_type":"reference","parent_table_name":"x_snc_customer_out_work_assignment","column_name":"geo"},{"name":"Created_1.table_name","label":"trigger➛Work Assignment Table","reference":"x_snc_customer_out_work_assignment","reference_display":"Work Assignment","type":"table_name","base_type":"table_name"},{"name":"bd0c6f1d-d5b5-47fb-a041-e9b2e32e8207.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"bd0c6f1d-d5b5-47fb-a041-e9b2e32e8207.Table","label":"1➛User Table","reference":"sys_user","reference_display":"User","type":"table_name","base_type":"table_name"},{"name":"bd0c6f1d-d5b5-47fb-a041-e9b2e32e8207.Records","label":"1➛User Records","reference":"sys_user","reference_display":"User","type":"records","base_type":"records"},{"name":"fd5af7c3-3822-40c4-a301-a4b7e7fb69d7.record","label":"2➛Record","reference":"sys_hub_action_input","reference_display":"Action Inputs","type":"document_id","base_type":"document_id"},{"name":"fd5af7c3-3822-40c4-a301-a4b7e7fb69d7.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"fd5af7c3-3822-40c4-a301-a4b7e7fb69d7.status","label":"2➛Status","reference_display":"Status","type":"choice","base_type":"choice"},{"name":"fd5af7c3-3822-40c4-a301-a4b7e7fb69d7.error_message","label":"2➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"aba56e72-5e19-4642-b423-078abccfa946.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"aba56e72-5e19-4642-b423-078abccfa946.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"23fabbc9-89a7-4801-ac42-10eef17d21ad.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"23fabbc9-89a7-4801-ac42-10eef17d21ad.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.pa_assigned","label":"trigger➛Work Assignment Record➛PA Assigned","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_customer_out_work_assignment","column_name":"pa_assigned"},{"name":"Updated_1.current","label":"trigger➛Work Assignment Record","reference":"x_snc_customer_out_work_assignment","reference_display":"Work Assignment","type":"reference","base_type":"reference","attributes":{}},{"name":"Updated_1.current.engagement_type","label":"trigger➛Work Assignment Record➛Engagement Type","reference":"","reference_display":"Engagement Type","type":"choice","base_type":"choice","parent_table_name":"x_snc_customer_out_work_assignment","column_name":"engagement_type"},{"name":"75f142fd-366a-415b-a2a6-7d8e0a0df885.record","label":"1.1➛PA Allocations Record","reference":"x_snc_customer_out_pa_allocations","reference_display":"PA Allocations Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"75f142fd-366a-415b-a2a6-7d8e0a0df885.table_name","label":"1.1➛PA Allocations Table","reference":"x_snc_customer_out_pa_allocations","reference_display":"PA Allocations Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"289dde0a-f64a-435e-8705-99c07f0066ad.record","label":"1.3➛PA Allocations Record","reference":"x_snc_customer_out_pa_allocations","reference_display":"PA Allocations Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"289dde0a-f64a-435e-8705-99c07f0066ad.table_name","label":"1.3➛PA Allocations Table","reference":"x_snc_customer_out_pa_allocations","reference_display":"PA Allocations Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f4127ed3-8f1f-436d-829d-ead4a02bab47.record","label":"1.5➛PA Allocations Record","reference":"x_snc_customer_out_pa_allocations","reference_display":"PA Allocations Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f4127ed3-8f1f-436d-829d-ead4a02bab47.table_name","label":"1.5➛PA Allocations Table","reference":"x_snc_customer_out_pa_allocations","reference_display":"PA Allocations Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e8e03f61-ee18-4324-b6ae-e3746bffb41a.record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e8e03f61-ee18-4324-b6ae-e3746bffb41a.table_name","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
-        <latest_snapshot>b2fd33b2db475810bde16a3b13961997</latest_snapshot>
+        <label_cache>[{"name":"9556f013-1f01-46da-a554-555e5caf2bcd.table_name","label":"1.7➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9556f013-1f01-46da-a554-555e5caf2bcd.record","label":"1.7➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e52c13b3-e489-4e44-9026-8f067aab86b5.Table","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"e52c13b3-e489-4e44-9026-8f067aab86b5.Record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"acb26dc3-5b34-41e7-b53c-f3da04dc82e1.Count","label":"4➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"acb26dc3-5b34-41e7-b53c-f3da04dc82e1.Table","label":"4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"acb26dc3-5b34-41e7-b53c-f3da04dc82e1.Records","label":"4➛Records","reference_display":"Records","type":"records","base_type":"records"},{"name":"876b8c31-a5a7-4572-acfe-eecb450bd747.table_name","label":"3➛Work Assignment Table","reference":"x_snc_customer_out_work_assignment","reference_display":"Work Assignment","type":"table_name","base_type":"table_name"},{"name":"876b8c31-a5a7-4572-acfe-eecb450bd747.record","label":"3➛Work Assignment Record","reference":"x_snc_customer_out_work_assignment","reference_display":"Work Assignment","type":"reference","base_type":"reference"},{"name":"a59f17fb-fc58-4ae6-81eb-7e0e3a027a37.Count","label":"2➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"a59f17fb-fc58-4ae6-81eb-7e0e3a027a37.Table","label":"2➛Customer Out M2m Users Platform Products Table","reference":"x_snc_customer_out_m2m_users_platform_products","reference_display":"Customer Out M2m Users Platform Products","type":"table_name","base_type":"table_name"},{"name":"a59f17fb-fc58-4ae6-81eb-7e0e3a027a37.Records","label":"2➛Customer Out M2m Users Platform Products Records","reference":"x_snc_customer_out_m2m_users_platform_products","reference_display":"Customer Out M2m Users Platform Products","type":"records","base_type":"records"},{"name":"888c85f3-f8ee-4ffc-8dd1-2c715cae3bbb.table_name","label":"4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"888c85f3-f8ee-4ffc-8dd1-2c715cae3bbb.record","label":"4➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"Created_1.current.platform_products","label":"trigger➛Work Assignment Record➛What Platform Products are in scope?","reference":"x_snc_customer_out_platform_products","reference_display":"Platform Products","type":"choice","base_type":"choice","parent_table_name":"x_snc_customer_out_work_assignment","column_name":"platform_products"},{"name":"6c8b5910-425e-4985-9a5b-85715b27321e.Count","label":"3➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"6c8b5910-425e-4985-9a5b-85715b27321e.Table","label":"3➛Customer Out M2m Users Platform Products Table","reference":"x_snc_customer_out_m2m_users_platform_products","reference_display":"Customer Out M2m Users Platform Products","type":"table_name","base_type":"table_name"},{"name":"6c8b5910-425e-4985-9a5b-85715b27321e.Records","label":"3➛Customer Out M2m Users Platform Products Records","reference":"x_snc_customer_out_m2m_users_platform_products","reference_display":"Customer Out M2m Users Platform Products","type":"records","base_type":"records"},{"name":"Created_1.current","label":"trigger➛Work Assignment Record","reference":"x_snc_customer_out_work_assignment","reference_display":"Work Assignment","type":"reference","base_type":"reference"},{"name":"4d45b2ee-544d-481b-93d1-0b53ee855901.table_name","label":"2➛Work Assignment Table","reference":"x_snc_customer_out_work_assignment","reference_display":"Work Assignment","type":"table_name","base_type":"table_name"},{"name":"4d45b2ee-544d-481b-93d1-0b53ee855901.record","label":"2➛Work Assignment Record","reference":"x_snc_customer_out_work_assignment","reference_display":"Work Assignment","type":"reference","base_type":"reference"},{"name":"Created_1.current.geo","label":"trigger➛Work Assignment Record➛Geo","reference":"x_snc_customer_out_geo","reference_display":"GEO","type":"reference","base_type":"reference","parent_table_name":"x_snc_customer_out_work_assignment","column_name":"geo"},{"name":"Created_1.table_name","label":"trigger➛Work Assignment Table","reference":"x_snc_customer_out_work_assignment","reference_display":"Work Assignment","type":"table_name","base_type":"table_name"},{"name":"bd0c6f1d-d5b5-47fb-a041-e9b2e32e8207.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"bd0c6f1d-d5b5-47fb-a041-e9b2e32e8207.Table","label":"1➛User Table","reference":"sys_user","reference_display":"User","type":"table_name","base_type":"table_name"},{"name":"bd0c6f1d-d5b5-47fb-a041-e9b2e32e8207.Records","label":"1➛User Records","reference":"sys_user","reference_display":"User","type":"records","base_type":"records"},{"name":"fd5af7c3-3822-40c4-a301-a4b7e7fb69d7.record","label":"2➛Record","reference":"sys_hub_action_input","reference_display":"Action Inputs","type":"document_id","base_type":"document_id"},{"name":"fd5af7c3-3822-40c4-a301-a4b7e7fb69d7.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"fd5af7c3-3822-40c4-a301-a4b7e7fb69d7.status","label":"2➛Status","reference_display":"Status","type":"choice","base_type":"choice"},{"name":"fd5af7c3-3822-40c4-a301-a4b7e7fb69d7.error_message","label":"2➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"aba56e72-5e19-4642-b423-078abccfa946.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"aba56e72-5e19-4642-b423-078abccfa946.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"23fabbc9-89a7-4801-ac42-10eef17d21ad.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"23fabbc9-89a7-4801-ac42-10eef17d21ad.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.pa_assigned","label":"trigger➛Work Assignment Record➛PA Assigned","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_customer_out_work_assignment","column_name":"pa_assigned"},{"name":"Updated_1.current","label":"trigger➛Work Assignment Record","reference":"x_snc_customer_out_work_assignment","reference_display":"Work Assignment","type":"reference","base_type":"reference","attributes":{}},{"name":"Updated_1.current.engagement_type","label":"trigger➛Work Assignment Record➛Engagement Type","reference":"","reference_display":"Engagement Type","type":"choice","base_type":"choice","parent_table_name":"x_snc_customer_out_work_assignment","column_name":"engagement_type"},{"name":"75f142fd-366a-415b-a2a6-7d8e0a0df885.record","label":"1.1➛PA Allocations Record","reference":"x_snc_customer_out_pa_allocations","reference_display":"PA Allocations","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"75f142fd-366a-415b-a2a6-7d8e0a0df885.table_name","label":"1.1➛PA Allocations Table","reference":"x_snc_customer_out_pa_allocations","reference_display":"PA Allocations","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"289dde0a-f64a-435e-8705-99c07f0066ad.record","label":"1.3➛PA Allocations Record","reference":"x_snc_customer_out_pa_allocations","reference_display":"PA Allocations","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"289dde0a-f64a-435e-8705-99c07f0066ad.table_name","label":"1.3➛PA Allocations Table","reference":"x_snc_customer_out_pa_allocations","reference_display":"PA Allocations","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f4127ed3-8f1f-436d-829d-ead4a02bab47.record","label":"1.5➛PA Allocations Record","reference":"x_snc_customer_out_pa_allocations","reference_display":"PA Allocations","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f4127ed3-8f1f-436d-829d-ead4a02bab47.table_name","label":"1.5➛PA Allocations Table","reference":"x_snc_customer_out_pa_allocations","reference_display":"PA Allocations","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e8e03f61-ee18-4324-b6ae-e3746bffb41a.record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e8e03f61-ee18-4324-b6ae-e3746bffb41a.table_name","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <latest_snapshot>940ea456db6d2854bde16a3b13961915</latest_snapshot>
         <master_snapshot>b2fd33b2db475810bde16a3b13961997</master_snapshot>
         <name>Allocate Time to Resources</name>
         <outputs/>
@@ -20,14 +20,14 @@
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>draft</status>
+        <status>published</status>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-08 17:14:57</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>37b5fbbedbc35810bde16a3b13961950</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>45</sys_mod_count>
         <sys_name>Allocate Time to Resources</sys_name>
         <sys_overrides/>
         <sys_package display_value="Customer Outcomes Assignment" source="x_snc_customer_out">7d70ba10db879850bde16a3b13961924</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_update_name>sys_hub_flow_37b5fbbedbc35810bde16a3b13961950</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 20:21:11</sys_updated_on>
+        <sys_updated_on>2021-01-11 15:04:59</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=37b5fbbedbc35810bde16a3b13961950"/>
@@ -58,11 +58,11 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3e4f7b61db6b105046b593c3e296190f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 17:15:39</sys_updated_on>
+        <sys_updated_on>2021-01-11 15:04:58</sys_updated_on>
         <table>x_snc_customer_out_work_assignment</table>
     </sys_flow_record_trigger>
     <sys_hub_flow_component action="delete_multiple" query="flow=37b5fbbedbc35810bde16a3b13961950^sys_idNOT IN3e3f3761db6b105046b593c3e29619fa,3e3f7761db6b105046b593c3e2961901,7e3f3761db6b105046b593c3e29619ff,a23f3761db6b105046b593c3e29619f2,b23f3761db6b105046b593c3e29619f6,fa3f3761db6b105046b593c3e29619fc"/>
@@ -81,10 +81,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-29 17:15:23</sys_created_on>
         <sys_id>3e3f3761db6b105046b593c3e29619fa</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 20:21:11</sys_updated_on>
+        <sys_updated_on>2021-01-11 15:04:59</sys_updated_on>
         <ui_id>289dde0a-f64a-435e-8705-99c07f0066ad</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3e3f3761db6b105046b593c3e29619fa"/>
@@ -166,7 +166,7 @@
         <value>name={{Updated_1.current.pa_assigned}}^total_hours=2</value>
     </sys_element_mapping>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">763f7761db6b105046b593c3e2961901</block>
+        <block display_value="">6f3f7d85dba1ec14bde16a3b13961986</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -183,10 +183,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-29 17:15:23</sys_created_on>
         <sys_id>3e3f7761db6b105046b593c3e2961901</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 20:21:11</sys_updated_on>
+        <sys_updated_on>2021-01-11 15:04:59</sys_updated_on>
         <ui_id>4120e4e7-c649-4db9-9789-318157374581</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -235,10 +235,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-29 17:15:23</sys_created_on>
         <sys_id>7e3f3761db6b105046b593c3e29619ff</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 20:21:11</sys_updated_on>
+        <sys_updated_on>2021-01-11 15:04:59</sys_updated_on>
         <ui_id>f4127ed3-8f1f-436d-829d-ead4a02bab47</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7e3f3761db6b105046b593c3e29619ff"/>
@@ -334,10 +334,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-29 17:15:22</sys_created_on>
         <sys_id>a23f3761db6b105046b593c3e29619f2</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 20:21:11</sys_updated_on>
+        <sys_updated_on>2021-01-11 15:04:59</sys_updated_on>
         <ui_id>75f142fd-366a-415b-a2a6-7d8e0a0df885</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a23f3761db6b105046b593c3e29619f2"/>
@@ -419,7 +419,7 @@
         <value>name={{Updated_1.current.pa_assigned}}^total_hours=8</value>
     </sys_element_mapping>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">b23f3761db6b105046b593c3e29619f5</block>
+        <block display_value="">a33f7d85dba1ec14bde16a3b1396197d</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -436,10 +436,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-29 17:15:22</sys_created_on>
         <sys_id>b23f3761db6b105046b593c3e29619f6</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 20:21:11</sys_updated_on>
+        <sys_updated_on>2021-01-11 15:04:59</sys_updated_on>
         <ui_id>a16c0bee-80c8-48ca-be2a-0fe1687901be</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -474,7 +474,7 @@
         <variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">363f3761db6b105046b593c3e29619fc</block>
+        <block display_value="">2b3f7d85dba1ec14bde16a3b13961982</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -491,10 +491,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-29 17:15:23</sys_created_on>
         <sys_id>fa3f3761db6b105046b593c3e29619fc</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 20:21:11</sys_updated_on>
+        <sys_updated_on>2021-01-11 15:04:59</sys_updated_on>
         <ui_id>5bcf68ee-879c-4368-a347-e0b96a8017e8</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -538,10 +538,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-29 17:15:22</sys_created_on>
         <sys_id>6a3fbf21db6b105046b593c3e2961912</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 20:21:11</sys_updated_on>
+        <sys_updated_on>2021-01-11 15:04:59</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -618,7 +618,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label/>
+        <column_label>Record</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -665,14 +665,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-08 17:35:21</sys_created_on>
         <sys_id>666a3f7adb075810bde16a3b13961931</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 20:21:10</sys_updated_on>
+        <sys_updated_on>2021-01-11 15:03:29</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -699,7 +699,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label/>
+        <column_label>Table Name</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -746,14 +746,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-08 17:35:22</sys_created_on>
         <sys_id>726a3f7adb075810bde16a3b13961939</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 20:21:10</sys_updated_on>
+        <sys_updated_on>2021-01-11 15:03:29</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -781,10 +781,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-29 17:15:23</sys_created_on>
         <sys_id>3e3f3761db6b105046b593c3e29619fa</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 20:21:11</sys_updated_on>
+        <sys_updated_on>2021-01-11 15:04:59</sys_updated_on>
         <ui_id>289dde0a-f64a-435e-8705-99c07f0066ad</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3e3f3761db6b105046b593c3e29619fa"/>
@@ -880,10 +880,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-29 17:15:23</sys_created_on>
         <sys_id>7e3f3761db6b105046b593c3e29619ff</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 20:21:11</sys_updated_on>
+        <sys_updated_on>2021-01-11 15:04:59</sys_updated_on>
         <ui_id>f4127ed3-8f1f-436d-829d-ead4a02bab47</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7e3f3761db6b105046b593c3e29619ff"/>
@@ -979,10 +979,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-29 17:15:22</sys_created_on>
         <sys_id>a23f3761db6b105046b593c3e29619f2</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 20:21:11</sys_updated_on>
+        <sys_updated_on>2021-01-11 15:04:59</sys_updated_on>
         <ui_id>75f142fd-366a-415b-a2a6-7d8e0a0df885</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a23f3761db6b105046b593c3e29619f2"/>
@@ -1065,7 +1065,7 @@
     </sys_element_mapping>
     <sys_hub_flow_logic action="delete_multiple" query="flow=37b5fbbedbc35810bde16a3b13961950^sys_idNOT IN3e3f7761db6b105046b593c3e2961901,b23f3761db6b105046b593c3e29619f6,fa3f3761db6b105046b593c3e29619fc"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">763f7761db6b105046b593c3e2961901</block>
+        <block display_value="">6f3f7d85dba1ec14bde16a3b13961986</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -1082,10 +1082,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-29 17:15:23</sys_created_on>
         <sys_id>3e3f7761db6b105046b593c3e2961901</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 20:21:11</sys_updated_on>
+        <sys_updated_on>2021-01-11 15:04:59</sys_updated_on>
         <ui_id>4120e4e7-c649-4db9-9789-318157374581</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1120,7 +1120,7 @@
         <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">b23f3761db6b105046b593c3e29619f5</block>
+        <block display_value="">a33f7d85dba1ec14bde16a3b1396197d</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -1137,10 +1137,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-29 17:15:22</sys_created_on>
         <sys_id>b23f3761db6b105046b593c3e29619f6</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 20:21:11</sys_updated_on>
+        <sys_updated_on>2021-01-11 15:04:59</sys_updated_on>
         <ui_id>a16c0bee-80c8-48ca-be2a-0fe1687901be</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1175,7 +1175,7 @@
         <variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">363f3761db6b105046b593c3e29619fc</block>
+        <block display_value="">2b3f7d85dba1ec14bde16a3b13961982</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -1192,10 +1192,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-29 17:15:23</sys_created_on>
         <sys_id>fa3f3761db6b105046b593c3e29619fc</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 20:21:11</sys_updated_on>
+        <sys_updated_on>2021-01-11 15:04:59</sys_updated_on>
         <ui_id>5bcf68ee-879c-4368-a347-e0b96a8017e8</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1242,14 +1242,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-08 17:35:22</sys_created_on>
         <sys_id>726af3badb075810bde16a3b139619a0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Table Name</sys_name>
         <sys_package display_value="Customer Outcomes Assignment" source="x_snc_customer_out">7d70ba10db879850bde16a3b13961924</sys_package>
         <sys_policy/>
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_37b5fbbedbc35810bde16a3b13961950_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-08 17:35:22</sys_updated_on>
+        <sys_updated_on>2020-12-29 16:12:28</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -1265,14 +1265,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-08 17:35:22</sys_created_on>
         <sys_id>7e6a3f7adb075810bde16a3b13961937</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Record</sys_name>
         <sys_package display_value="Customer Outcomes Assignment" source="x_snc_customer_out">7d70ba10db879850bde16a3b13961924</sys_package>
         <sys_policy/>
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_37b5fbbedbc35810bde16a3b13961950_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-08 17:35:22</sys_updated_on>
+        <sys_updated_on>2020-12-29 16:12:54</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -1281,17 +1281,17 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerUniqueChange</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"83fd33b2db475810bde16a3b139619da","name":"plan"}}</plan>
         <plan_id>37b5fbbedbc35810bde16a3b13961950</plan_id>
-        <snapshot>b2fd33b2db475810bde16a3b13961997</snapshot>
+        <snapshot>940ea456db6d2854bde16a3b13961915</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-08 17:50:57</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>83fd33b2db475810bde16a3b139619da</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 20:15:38</sys_updated_on>
+        <sys_updated_on>2021-01-08 18:17:39</sys_updated_on>
         <trigger display_value="">3e4f7b61db6b105046b593c3e296190f</trigger>
     </sys_flow_trigger_plan>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
@@ -1305,7 +1305,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>assign_resources__to_work_assignment</internal_name>
-        <label_cache>[{"name":"e8e03f61-ee18-4324-b6ae-e3746bffb41a.table_name","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e8e03f61-ee18-4324-b6ae-e3746bffb41a.record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f4127ed3-8f1f-436d-829d-ead4a02bab47.table_name","label":"1.5➛PA Allocations Table","reference":"x_snc_customer_out_pa_allocations","reference_display":"PA Allocations","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f4127ed3-8f1f-436d-829d-ead4a02bab47.record","label":"1.5➛PA Allocations Record","reference":"x_snc_customer_out_pa_allocations","reference_display":"PA Allocations","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"289dde0a-f64a-435e-8705-99c07f0066ad.table_name","label":"1.3➛PA Allocations Table","reference":"x_snc_customer_out_pa_allocations","reference_display":"PA Allocations","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"289dde0a-f64a-435e-8705-99c07f0066ad.record","label":"1.3➛PA Allocations Record","reference":"x_snc_customer_out_pa_allocations","reference_display":"PA Allocations","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"75f142fd-366a-415b-a2a6-7d8e0a0df885.table_name","label":"1.1➛PA Allocations Table","reference":"x_snc_customer_out_pa_allocations","reference_display":"PA Allocations","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"75f142fd-366a-415b-a2a6-7d8e0a0df885.record","label":"1.1➛PA Allocations Record","reference":"x_snc_customer_out_pa_allocations","reference_display":"PA Allocations","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.engagement_type","label":"trigger➛Work Assignment Record➛Engagement Type","reference":"","reference_display":"Engagement Type","type":"choice","base_type":"choice","parent_table_name":"x_snc_customer_out_work_assignment","column_name":"engagement_type"},{"name":"Updated_1.current","label":"trigger➛Work Assignment Record","reference":"x_snc_customer_out_work_assignment","reference_display":"Work Assignment","type":"reference","base_type":"reference","attributes":{}},{"name":"Updated_1.current.pa_assigned","label":"trigger➛Work Assignment Record➛PA Assigned","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_customer_out_work_assignment","column_name":"pa_assigned"},{"name":"23fabbc9-89a7-4801-ac42-10eef17d21ad.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"23fabbc9-89a7-4801-ac42-10eef17d21ad.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"aba56e72-5e19-4642-b423-078abccfa946.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"aba56e72-5e19-4642-b423-078abccfa946.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"fd5af7c3-3822-40c4-a301-a4b7e7fb69d7.error_message","label":"2➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"fd5af7c3-3822-40c4-a301-a4b7e7fb69d7.status","label":"2➛Status","reference_display":"Status","type":"choice","base_type":"choice"},{"name":"fd5af7c3-3822-40c4-a301-a4b7e7fb69d7.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"fd5af7c3-3822-40c4-a301-a4b7e7fb69d7.record","label":"2➛Record","reference":"sys_hub_action_input","reference_display":"Action Inputs","type":"document_id","base_type":"document_id"},{"name":"bd0c6f1d-d5b5-47fb-a041-e9b2e32e8207.Records","label":"1➛User Records","reference":"sys_user","reference_display":"User","type":"records","base_type":"records"},{"name":"bd0c6f1d-d5b5-47fb-a041-e9b2e32e8207.Table","label":"1➛User Table","reference":"sys_user","reference_display":"User","type":"table_name","base_type":"table_name"},{"name":"bd0c6f1d-d5b5-47fb-a041-e9b2e32e8207.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"Created_1.table_name","label":"trigger➛Work Assignment Table","reference":"x_snc_customer_out_work_assignment","reference_display":"Work Assignment","type":"table_name","base_type":"table_name"},{"name":"Created_1.current.geo","label":"trigger➛Work Assignment Record➛Geo","reference":"x_snc_customer_out_geo","reference_display":"GEO","type":"reference","base_type":"reference","parent_table_name":"x_snc_customer_out_work_assignment","column_name":"geo"},{"name":"4d45b2ee-544d-481b-93d1-0b53ee855901.record","label":"2➛Work Assignment Record","reference":"x_snc_customer_out_work_assignment","reference_display":"Work Assignment","type":"reference","base_type":"reference"},{"name":"4d45b2ee-544d-481b-93d1-0b53ee855901.table_name","label":"2➛Work Assignment Table","reference":"x_snc_customer_out_work_assignment","reference_display":"Work Assignment","type":"table_name","base_type":"table_name"},{"name":"Created_1.current","label":"trigger➛Work Assignment Record","reference":"x_snc_customer_out_work_assignment","reference_display":"Work Assignment","type":"reference","base_type":"reference"},{"name":"6c8b5910-425e-4985-9a5b-85715b27321e.Records","label":"3➛Customer Out M2m Users Platform Products Records","reference":"x_snc_customer_out_m2m_users_platform_products","reference_display":"Customer Out M2m Users Platform Products","type":"records","base_type":"records"},{"name":"6c8b5910-425e-4985-9a5b-85715b27321e.Table","label":"3➛Customer Out M2m Users Platform Products Table","reference":"x_snc_customer_out_m2m_users_platform_products","reference_display":"Customer Out M2m Users Platform Products","type":"table_name","base_type":"table_name"},{"name":"6c8b5910-425e-4985-9a5b-85715b27321e.Count","label":"3➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"Created_1.current.platform_products","label":"trigger➛Work Assignment Record➛What Platform Products are in scope?","reference":"x_snc_customer_out_platform_products","reference_display":"Platform Products","type":"choice","base_type":"choice","parent_table_name":"x_snc_customer_out_work_assignment","column_name":"platform_products"},{"name":"888c85f3-f8ee-4ffc-8dd1-2c715cae3bbb.record","label":"4➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"888c85f3-f8ee-4ffc-8dd1-2c715cae3bbb.table_name","label":"4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"a59f17fb-fc58-4ae6-81eb-7e0e3a027a37.Records","label":"2➛Customer Out M2m Users Platform Products Records","reference":"x_snc_customer_out_m2m_users_platform_products","reference_display":"Customer Out M2m Users Platform Products","type":"records","base_type":"records"},{"name":"a59f17fb-fc58-4ae6-81eb-7e0e3a027a37.Table","label":"2➛Customer Out M2m Users Platform Products Table","reference":"x_snc_customer_out_m2m_users_platform_products","reference_display":"Customer Out M2m Users Platform Products","type":"table_name","base_type":"table_name"},{"name":"a59f17fb-fc58-4ae6-81eb-7e0e3a027a37.Count","label":"2➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"876b8c31-a5a7-4572-acfe-eecb450bd747.record","label":"3➛Work Assignment Record","reference":"x_snc_customer_out_work_assignment","reference_display":"Work Assignment","type":"reference","base_type":"reference"},{"name":"876b8c31-a5a7-4572-acfe-eecb450bd747.table_name","label":"3➛Work Assignment Table","reference":"x_snc_customer_out_work_assignment","reference_display":"Work Assignment","type":"table_name","base_type":"table_name"},{"name":"acb26dc3-5b34-41e7-b53c-f3da04dc82e1.Records","label":"4➛Records","reference_display":"Records","type":"records","base_type":"records"},{"name":"acb26dc3-5b34-41e7-b53c-f3da04dc82e1.Table","label":"4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"acb26dc3-5b34-41e7-b53c-f3da04dc82e1.Count","label":"4➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"e52c13b3-e489-4e44-9026-8f067aab86b5.Record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"e52c13b3-e489-4e44-9026-8f067aab86b5.Table","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"}]</label_cache>
+        <label_cache>[{"name":"9556f013-1f01-46da-a554-555e5caf2bcd.table_name","label":"1.7➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9556f013-1f01-46da-a554-555e5caf2bcd.record","label":"1.7➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e52c13b3-e489-4e44-9026-8f067aab86b5.Table","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"e52c13b3-e489-4e44-9026-8f067aab86b5.Record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"acb26dc3-5b34-41e7-b53c-f3da04dc82e1.Count","label":"4➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"acb26dc3-5b34-41e7-b53c-f3da04dc82e1.Table","label":"4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"acb26dc3-5b34-41e7-b53c-f3da04dc82e1.Records","label":"4➛Records","reference_display":"Records","type":"records","base_type":"records"},{"name":"876b8c31-a5a7-4572-acfe-eecb450bd747.table_name","label":"3➛Work Assignment Table","reference":"x_snc_customer_out_work_assignment","reference_display":"Work Assignment","type":"table_name","base_type":"table_name"},{"name":"876b8c31-a5a7-4572-acfe-eecb450bd747.record","label":"3➛Work Assignment Record","reference":"x_snc_customer_out_work_assignment","reference_display":"Work Assignment","type":"reference","base_type":"reference"},{"name":"a59f17fb-fc58-4ae6-81eb-7e0e3a027a37.Count","label":"2➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"a59f17fb-fc58-4ae6-81eb-7e0e3a027a37.Table","label":"2➛Customer Out M2m Users Platform Products Table","reference":"x_snc_customer_out_m2m_users_platform_products","reference_display":"Customer Out M2m Users Platform Products","type":"table_name","base_type":"table_name"},{"name":"a59f17fb-fc58-4ae6-81eb-7e0e3a027a37.Records","label":"2➛Customer Out M2m Users Platform Products Records","reference":"x_snc_customer_out_m2m_users_platform_products","reference_display":"Customer Out M2m Users Platform Products","type":"records","base_type":"records"},{"name":"888c85f3-f8ee-4ffc-8dd1-2c715cae3bbb.table_name","label":"4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"888c85f3-f8ee-4ffc-8dd1-2c715cae3bbb.record","label":"4➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"Created_1.current.platform_products","label":"trigger➛Work Assignment Record➛What Platform Products are in scope?","reference":"x_snc_customer_out_platform_products","reference_display":"Platform Products","type":"choice","base_type":"choice","parent_table_name":"x_snc_customer_out_work_assignment","column_name":"platform_products"},{"name":"6c8b5910-425e-4985-9a5b-85715b27321e.Count","label":"3➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"6c8b5910-425e-4985-9a5b-85715b27321e.Table","label":"3➛Customer Out M2m Users Platform Products Table","reference":"x_snc_customer_out_m2m_users_platform_products","reference_display":"Customer Out M2m Users Platform Products","type":"table_name","base_type":"table_name"},{"name":"6c8b5910-425e-4985-9a5b-85715b27321e.Records","label":"3➛Customer Out M2m Users Platform Products Records","reference":"x_snc_customer_out_m2m_users_platform_products","reference_display":"Customer Out M2m Users Platform Products","type":"records","base_type":"records"},{"name":"Created_1.current","label":"trigger➛Work Assignment Record","reference":"x_snc_customer_out_work_assignment","reference_display":"Work Assignment","type":"reference","base_type":"reference"},{"name":"4d45b2ee-544d-481b-93d1-0b53ee855901.table_name","label":"2➛Work Assignment Table","reference":"x_snc_customer_out_work_assignment","reference_display":"Work Assignment","type":"table_name","base_type":"table_name"},{"name":"4d45b2ee-544d-481b-93d1-0b53ee855901.record","label":"2➛Work Assignment Record","reference":"x_snc_customer_out_work_assignment","reference_display":"Work Assignment","type":"reference","base_type":"reference"},{"name":"Created_1.current.geo","label":"trigger➛Work Assignment Record➛Geo","reference":"x_snc_customer_out_geo","reference_display":"GEO","type":"reference","base_type":"reference","parent_table_name":"x_snc_customer_out_work_assignment","column_name":"geo"},{"name":"Created_1.table_name","label":"trigger➛Work Assignment Table","reference":"x_snc_customer_out_work_assignment","reference_display":"Work Assignment","type":"table_name","base_type":"table_name"},{"name":"bd0c6f1d-d5b5-47fb-a041-e9b2e32e8207.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"bd0c6f1d-d5b5-47fb-a041-e9b2e32e8207.Table","label":"1➛User Table","reference":"sys_user","reference_display":"User","type":"table_name","base_type":"table_name"},{"name":"bd0c6f1d-d5b5-47fb-a041-e9b2e32e8207.Records","label":"1➛User Records","reference":"sys_user","reference_display":"User","type":"records","base_type":"records"},{"name":"fd5af7c3-3822-40c4-a301-a4b7e7fb69d7.record","label":"2➛Record","reference":"sys_hub_action_input","reference_display":"Action Inputs","type":"document_id","base_type":"document_id"},{"name":"fd5af7c3-3822-40c4-a301-a4b7e7fb69d7.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"fd5af7c3-3822-40c4-a301-a4b7e7fb69d7.status","label":"2➛Status","reference_display":"Status","type":"choice","base_type":"choice"},{"name":"fd5af7c3-3822-40c4-a301-a4b7e7fb69d7.error_message","label":"2➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"aba56e72-5e19-4642-b423-078abccfa946.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"aba56e72-5e19-4642-b423-078abccfa946.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"23fabbc9-89a7-4801-ac42-10eef17d21ad.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"23fabbc9-89a7-4801-ac42-10eef17d21ad.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.pa_assigned","label":"trigger➛Work Assignment Record➛PA Assigned","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_customer_out_work_assignment","column_name":"pa_assigned"},{"name":"Updated_1.current","label":"trigger➛Work Assignment Record","reference":"x_snc_customer_out_work_assignment","reference_display":"Work Assignment","type":"reference","base_type":"reference","attributes":{}},{"name":"Updated_1.current.engagement_type","label":"trigger➛Work Assignment Record➛Engagement Type","reference":"","reference_display":"Engagement Type","type":"choice","base_type":"choice","parent_table_name":"x_snc_customer_out_work_assignment","column_name":"engagement_type"},{"name":"75f142fd-366a-415b-a2a6-7d8e0a0df885.record","label":"1.1➛PA Allocations Record","reference":"x_snc_customer_out_pa_allocations","reference_display":"PA Allocations","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"75f142fd-366a-415b-a2a6-7d8e0a0df885.table_name","label":"1.1➛PA Allocations Table","reference":"x_snc_customer_out_pa_allocations","reference_display":"PA Allocations","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"289dde0a-f64a-435e-8705-99c07f0066ad.record","label":"1.3➛PA Allocations Record","reference":"x_snc_customer_out_pa_allocations","reference_display":"PA Allocations","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"289dde0a-f64a-435e-8705-99c07f0066ad.table_name","label":"1.3➛PA Allocations Table","reference":"x_snc_customer_out_pa_allocations","reference_display":"PA Allocations","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f4127ed3-8f1f-436d-829d-ead4a02bab47.record","label":"1.5➛PA Allocations Record","reference":"x_snc_customer_out_pa_allocations","reference_display":"PA Allocations","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f4127ed3-8f1f-436d-829d-ead4a02bab47.table_name","label":"1.5➛PA Allocations Table","reference":"x_snc_customer_out_pa_allocations","reference_display":"PA Allocations","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e8e03f61-ee18-4324-b6ae-e3746bffb41a.record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e8e03f61-ee18-4324-b6ae-e3746bffb41a.table_name","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master>true</master>
         <name>Allocate Time to Resources</name>
         <outputs/>
@@ -1320,7 +1320,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b2fd33b2db475810bde16a3b13961997</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1328,14 +1328,14 @@
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 20:15:37</sys_updated_on>
+        <sys_updated_on>2021-01-08 18:17:38</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=b2fd33b2db475810bde16a3b13961997"/>
     <sys_variable_value action="delete_multiple" query="document_key=b2fd33b2db475810bde16a3b13961997"/>
-    <sys_hub_flow_component action="delete_multiple" query="flow=b2fd33b2db475810bde16a3b13961997^sys_idNOT IN0a4f3b61db6b105046b593c3e296199f,1a4f3b61db6b105046b593c3e29619b2,464f3b61db6b105046b593c3e2961997,464f3b61db6b105046b593c3e296199a,464f3b61db6b105046b593c3e296199d,564f3b61db6b105046b593c3e29619b0,8e4f3b61db6b105046b593c3e2961987,da4f3b61db6b105046b593c3e29619a1"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=b2fd33b2db475810bde16a3b13961997^sys_idNOT IN0a4f3b61db6b105046b593c3e296199f,464f3b61db6b105046b593c3e2961997,464f3b61db6b105046b593c3e296199a,564f3b61db6b105046b593c3e29619b0,8e4f3b61db6b105046b593c3e2961987,da4f3b61db6b105046b593c3e29619a1"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">b23f3761db6b105046b593c3e29619f5</block>
+        <block display_value="">a33f7d85dba1ec14bde16a3b1396197d</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -1352,10 +1352,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-29 17:15:36</sys_created_on>
         <sys_id>0a4f3b61db6b105046b593c3e296199f</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 20:15:37</sys_updated_on>
+        <sys_updated_on>2021-01-08 18:17:37</sys_updated_on>
         <ui_id>a16c0bee-80c8-48ca-be2a-0fe1687901be</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1389,33 +1389,6 @@
         <value>Engagement Type is Professional SKU </value>
         <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
-    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">f63f7761db6b105046b593c3e2961903</block>
-        <comment/>
-        <connected_to>4120e4e7-c649-4db9-9789-318157374581</connected_to>
-        <decision_table/>
-        <decision_table_inputs/>
-        <display_text/>
-        <flow display_value="Allocate Time to Resources">b2fd33b2db475810bde16a3b13961997</flow>
-        <inputs/>
-        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
-        <order>2</order>
-        <outputs_assigned/>
-        <outputs_to_assign/>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_flow_logic</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-29 17:15:36</sys_created_on>
-        <sys_id>1a4f3b61db6b105046b593c3e29619b2</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 20:15:37</sys_updated_on>
-        <ui_id>4b13bea2-b6b4-4023-a233-1fe704964ec6</ui_id>
-        <workflow_inputs/>
-        <workflow_reference/>
-    </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=1a4f3b61db6b105046b593c3e29619b2"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -1431,10 +1404,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-29 17:15:36</sys_created_on>
         <sys_id>464f3b61db6b105046b593c3e2961997</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 20:15:37</sys_updated_on>
+        <sys_updated_on>2021-01-08 18:17:37</sys_updated_on>
         <ui_id>289dde0a-f64a-435e-8705-99c07f0066ad</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=464f3b61db6b105046b593c3e2961997"/>
@@ -1492,10 +1465,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-29 17:15:36</sys_created_on>
         <sys_id>464f3b61db6b105046b593c3e296199a</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 20:15:37</sys_updated_on>
+        <sys_updated_on>2021-01-08 18:17:37</sys_updated_on>
         <ui_id>f4127ed3-8f1f-436d-829d-ead4a02bab47</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=464f3b61db6b105046b593c3e296199a"/>
@@ -1538,69 +1511,8 @@
         <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
         <value>name={{Updated_1.current.pa_assigned}}^total_hours=32</value>
     </sys_element_mapping>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
-        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
-        <comment/>
-        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
-        <display_text/>
-        <flow display_value="Allocate Time to Resources">b2fd33b2db475810bde16a3b13961997</flow>
-        <order>3</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-29 17:15:36</sys_created_on>
-        <sys_id>464f3b61db6b105046b593c3e296199d</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 20:15:37</sys_updated_on>
-        <ui_id>e8e03f61-ee18-4324-b6ae-e3746bffb41a</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=464f3b61db6b105046b593c3e296199d"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>464f3b61db6b105046b593c3e296199d</document_key>
-        <order>0</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-29 17:15:36</sys_created_on>
-        <sys_id>0e4f3b61db6b105046b593c3e296199e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 17:15:36</sys_updated_on>
-        <value>x_snc_customer_out_pa_allocations</value>
-        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=464f3b61db6b105046b593c3e296199d"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table_name</field>
-        <id>464f3b61db6b105046b593c3e296199d</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-29 17:15:36</sys_created_on>
-        <sys_id>c64f3b61db6b105046b593c3e296199e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 17:15:36</sys_updated_on>
-        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>values</field>
-        <id>464f3b61db6b105046b593c3e296199d</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-29 17:15:36</sys_created_on>
-        <sys_id>8a4f3b61db6b105046b593c3e296199e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 17:15:36</sys_updated_on>
-        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>name={{Updated_1.current.pa_assigned}}^total_hours=fd-scripted</value>
-    </sys_element_mapping>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">763f7761db6b105046b593c3e2961901</block>
+        <block display_value="">6f3f7d85dba1ec14bde16a3b13961986</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -1617,10 +1529,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-29 17:15:36</sys_created_on>
         <sys_id>564f3b61db6b105046b593c3e29619b0</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 20:15:37</sys_updated_on>
+        <sys_updated_on>2021-01-08 18:17:37</sys_updated_on>
         <ui_id>4120e4e7-c649-4db9-9789-318157374581</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1669,10 +1581,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-29 17:15:36</sys_created_on>
         <sys_id>8e4f3b61db6b105046b593c3e2961987</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 20:15:37</sys_updated_on>
+        <sys_updated_on>2021-01-08 18:17:37</sys_updated_on>
         <ui_id>75f142fd-366a-415b-a2a6-7d8e0a0df885</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8e4f3b61db6b105046b593c3e2961987"/>
@@ -1716,7 +1628,7 @@
         <value>name={{Updated_1.current.pa_assigned}}^total_hours=8</value>
     </sys_element_mapping>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">363f3761db6b105046b593c3e29619fc</block>
+        <block display_value="">2b3f7d85dba1ec14bde16a3b13961982</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -1733,10 +1645,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-29 17:15:36</sys_created_on>
         <sys_id>da4f3b61db6b105046b593c3e29619a1</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 20:15:37</sys_updated_on>
+        <sys_updated_on>2021-01-08 18:17:37</sys_updated_on>
         <ui_id>5bcf68ee-879c-4368-a347-e0b96a8017e8</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1780,10 +1692,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-08 17:50:56</sys_created_on>
         <sys_id>fafd33b2db475810bde16a3b139619b3</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 20:15:38</sys_updated_on>
+        <sys_updated_on>2021-01-08 18:17:39</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -1888,7 +1800,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label/>
+        <column_label>Table Name</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -1935,14 +1847,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-08 17:50:56</sys_created_on>
         <sys_id>7efd33b2db475810bde16a3b139619a4</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 20:15:36</sys_updated_on>
+        <sys_updated_on>2021-01-08 18:17:37</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1969,7 +1881,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label/>
+        <column_label>Record</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -2016,14 +1928,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-08 17:50:56</sys_created_on>
         <sys_id>b2fd33b2db475810bde16a3b13961999</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 20:15:36</sys_updated_on>
+        <sys_updated_on>2021-01-08 18:17:37</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2035,7 +1947,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_instance action="delete_multiple" query="flow=b2fd33b2db475810bde16a3b13961997^sys_idNOT IN464f3b61db6b105046b593c3e2961997,464f3b61db6b105046b593c3e296199a,464f3b61db6b105046b593c3e296199d,8e4f3b61db6b105046b593c3e2961987"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=b2fd33b2db475810bde16a3b13961997^sys_idNOT IN464f3b61db6b105046b593c3e2961997,464f3b61db6b105046b593c3e296199a,8e4f3b61db6b105046b593c3e2961987"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -2051,10 +1963,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-29 17:15:36</sys_created_on>
         <sys_id>464f3b61db6b105046b593c3e2961997</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 20:15:37</sys_updated_on>
+        <sys_updated_on>2021-01-08 18:17:37</sys_updated_on>
         <ui_id>289dde0a-f64a-435e-8705-99c07f0066ad</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=464f3b61db6b105046b593c3e2961997"/>
@@ -2112,10 +2024,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-29 17:15:36</sys_created_on>
         <sys_id>464f3b61db6b105046b593c3e296199a</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 20:15:37</sys_updated_on>
+        <sys_updated_on>2021-01-08 18:17:37</sys_updated_on>
         <ui_id>f4127ed3-8f1f-436d-829d-ead4a02bab47</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=464f3b61db6b105046b593c3e296199a"/>
@@ -2167,91 +2079,16 @@
         <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
         <display_text/>
         <flow display_value="Allocate Time to Resources">b2fd33b2db475810bde16a3b13961997</flow>
-        <order>3</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-29 17:15:36</sys_created_on>
-        <sys_id>464f3b61db6b105046b593c3e296199d</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 20:15:37</sys_updated_on>
-        <ui_id>e8e03f61-ee18-4324-b6ae-e3746bffb41a</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=464f3b61db6b105046b593c3e296199d"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>464f3b61db6b105046b593c3e296199d</document_key>
-        <order>0</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-29 17:15:36</sys_created_on>
-        <sys_id>0e4f3b61db6b105046b593c3e296199e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 17:15:36</sys_updated_on>
-        <value>x_snc_customer_out_pa_allocations</value>
-        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=464f3b61db6b105046b593c3e296199d"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table_name</field>
-        <id>464f3b61db6b105046b593c3e296199d</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-29 17:15:36</sys_created_on>
-        <sys_id>c64f3b61db6b105046b593c3e296199e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 17:15:36</sys_updated_on>
-        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>values</field>
-        <id>464f3b61db6b105046b593c3e296199d</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-29 17:15:36</sys_created_on>
-        <sys_id>8a4f3b61db6b105046b593c3e296199e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 17:15:36</sys_updated_on>
-        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>name={{Updated_1.current.pa_assigned}}^total_hours=fd-scripted</value>
-    </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=464f3b61db6b105046b593c3e296199d^sys_idNOT INc24f3b61db6b105046b593c3e296199e"/>
-    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <input_name>values</input_name>
-        <instance>464f3b61db6b105046b593c3e296199d</instance>
-        <referenced_table>sys_hub_action_instance</referenced_table>
-        <script>{"total_hours":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nvar hrs \u003d fd_data.trigger.current.project_allocation;\nreturn hrs;","savedValue":""}}</script>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-29 17:15:36</sys_created_on>
-        <sys_id>c24f3b61db6b105046b593c3e296199e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 17:15:36</sys_updated_on>
-    </sys_hub_input_scripts>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
-        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
-        <comment/>
-        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
-        <display_text/>
-        <flow display_value="Allocate Time to Resources">b2fd33b2db475810bde16a3b13961997</flow>
         <order>1.1</order>
         <parent_ui_id>4120e4e7-c649-4db9-9789-318157374581</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-29 17:15:36</sys_created_on>
         <sys_id>8e4f3b61db6b105046b593c3e2961987</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 20:15:37</sys_updated_on>
+        <sys_updated_on>2021-01-08 18:17:37</sys_updated_on>
         <ui_id>75f142fd-366a-415b-a2a6-7d8e0a0df885</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8e4f3b61db6b105046b593c3e2961987"/>
@@ -2294,9 +2131,9 @@
         <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
         <value>name={{Updated_1.current.pa_assigned}}^total_hours=8</value>
     </sys_element_mapping>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=b2fd33b2db475810bde16a3b13961997^sys_idNOT IN0a4f3b61db6b105046b593c3e296199f,1a4f3b61db6b105046b593c3e29619b2,564f3b61db6b105046b593c3e29619b0,da4f3b61db6b105046b593c3e29619a1"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=b2fd33b2db475810bde16a3b13961997^sys_idNOT IN0a4f3b61db6b105046b593c3e296199f,564f3b61db6b105046b593c3e29619b0,da4f3b61db6b105046b593c3e29619a1"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">b23f3761db6b105046b593c3e29619f5</block>
+        <block display_value="">a33f7d85dba1ec14bde16a3b1396197d</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -2313,10 +2150,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-29 17:15:36</sys_created_on>
         <sys_id>0a4f3b61db6b105046b593c3e296199f</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 20:15:37</sys_updated_on>
+        <sys_updated_on>2021-01-08 18:17:37</sys_updated_on>
         <ui_id>a16c0bee-80c8-48ca-be2a-0fe1687901be</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2351,34 +2188,7 @@
         <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">f63f7761db6b105046b593c3e2961903</block>
-        <comment/>
-        <connected_to>4120e4e7-c649-4db9-9789-318157374581</connected_to>
-        <decision_table/>
-        <decision_table_inputs/>
-        <display_text/>
-        <flow display_value="Allocate Time to Resources">b2fd33b2db475810bde16a3b13961997</flow>
-        <inputs/>
-        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
-        <order>2</order>
-        <outputs_assigned/>
-        <outputs_to_assign/>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_flow_logic</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-29 17:15:36</sys_created_on>
-        <sys_id>1a4f3b61db6b105046b593c3e29619b2</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 20:15:37</sys_updated_on>
-        <ui_id>4b13bea2-b6b4-4023-a233-1fe704964ec6</ui_id>
-        <workflow_inputs/>
-        <workflow_reference/>
-    </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=1a4f3b61db6b105046b593c3e29619b2"/>
-    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">763f7761db6b105046b593c3e2961901</block>
+        <block display_value="">6f3f7d85dba1ec14bde16a3b13961986</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -2395,10 +2205,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-29 17:15:36</sys_created_on>
         <sys_id>564f3b61db6b105046b593c3e29619b0</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 20:15:37</sys_updated_on>
+        <sys_updated_on>2021-01-08 18:17:37</sys_updated_on>
         <ui_id>4120e4e7-c649-4db9-9789-318157374581</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2433,7 +2243,7 @@
         <variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">363f3761db6b105046b593c3e29619fc</block>
+        <block display_value="">2b3f7d85dba1ec14bde16a3b13961982</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -2450,10 +2260,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-29 17:15:36</sys_created_on>
         <sys_id>da4f3b61db6b105046b593c3e29619a1</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-29 20:15:37</sys_updated_on>
+        <sys_updated_on>2021-01-08 18:17:37</sys_updated_on>
         <ui_id>5bcf68ee-879c-4368-a347-e0b96a8017e8</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2500,14 +2310,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-08 17:50:56</sys_created_on>
         <sys_id>72fd33b2db475810bde16a3b139619aa</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Table Name</sys_name>
         <sys_package display_value="Customer Outcomes Assignment" source="x_snc_customer_out">7d70ba10db879850bde16a3b13961924</sys_package>
         <sys_policy/>
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_b2fd33b2db475810bde16a3b13961997_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-08 17:50:56</sys_updated_on>
+        <sys_updated_on>2020-12-29 16:12:29</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -2523,14 +2333,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-08 17:50:56</sys_created_on>
         <sys_id>fefd33b2db475810bde16a3b1396199e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Record</sys_name>
         <sys_package display_value="Customer Outcomes Assignment" source="x_snc_customer_out">7d70ba10db879850bde16a3b13961924</sys_package>
         <sys_policy/>
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_b2fd33b2db475810bde16a3b13961997_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-08 17:50:56</sys_updated_on>
+        <sys_updated_on>2020-12-29 16:15:26</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>

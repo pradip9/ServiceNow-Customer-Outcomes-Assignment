@@ -8,13 +8,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-15 21:23:20</sys_created_on>
         <sys_id>66b170dddbd3985046b593c3e2961907</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>$d6b1709d38d3985067139b8c4330b819{gs.getMessage("Statistics in the Selected slushbucket will not appear on the Overview tab of this indicator's Analytics Hub.")}</sys_name>
         <sys_package display_value="Customer Outcomes Assignment" source="x_snc_customer_out">7d70ba10db879850bde16a3b13961924</sys_package>
         <sys_policy/>
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_update_name>sys_ui_message_66b170dddbd3985046b593c3e2961907</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-15 21:23:20</sys_updated_on>
+        <sys_updated_on>2020-12-29 16:12:22</sys_updated_on>
     </sys_ui_message>
 </record_update>

@@ -11,7 +11,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>82150bd8db0b9850bde16a3b13961930</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>PA Skillset</sys_name>
         <sys_overrides/>
         <sys_package display_value="Customer Outcomes Assignment" source="x_snc_customer_out">7d70ba10db879850bde16a3b13961924</sys_package>
@@ -19,6 +19,6 @@
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_update_name>sys_ui_application_82150bd8db0b9850bde16a3b13961930</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-31 19:17:34</sys_updated_on>
+        <sys_updated_on>2020-12-29 16:12:55</sys_updated_on>
     </sys_ui_application>
 </record_update>

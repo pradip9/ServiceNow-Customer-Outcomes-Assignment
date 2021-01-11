@@ -53,15 +53,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-08-31 22:43:25</sys_created_on>
-        <sys_id>e2d3bb98db8f9850bde16a3b139619d3</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_id>7c85da06dbefd05046b593c3e2961959</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Inspire Engagement Status</sys_name>
         <sys_package display_value="Customer Outcomes Assignment" source="x_snc_customer_out">7d70ba10db879850bde16a3b13961924</sys_package>
         <sys_policy/>
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_customer_out_work_assignment_inspire_engagement</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-31 22:43:58</sys_updated_on>
+        <sys_updated_on>2020-12-29 16:12:51</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

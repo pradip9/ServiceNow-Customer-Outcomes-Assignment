@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="aggregate_hours" label="Aggregate Hours" language="en" table="x_snc_customer_out_pa_allocations">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>aggregate_hours</element>
+            <help/>
+            <hint/>
+            <label>Aggregate Hours</label>
+            <language>en</language>
+            <name>x_snc_customer_out_pa_allocations</name>
+            <plural>Aggregate Hours</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-01 17:51:04</sys_created_on>
+            <sys_id>159a921edb2f5450bde16a3b139619e1</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Aggregate Hours</sys_name>
+            <sys_package display_value="Customer Outcomes Assignment" source="x_snc_customer_out">7d70ba10db879850bde16a3b13961924</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_customer_out_pa_allocations_aggregate_hours_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-05 01:00:38</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

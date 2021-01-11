@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Work Assignment" max_length="40" name="x_snc_customer_out_work_assignment" sizeclass="6" type="collection">
+    <element extends="task" label="Work Assignment" max_length="40" name="x_snc_customer_out_work_assignment" sizeclass="50" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Are there any current challenges which the customer is facing?" max_length="900" name="current_challenges" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Customer Name" max_length="32" name="customer_name" reference="core_company" type="reference"/>
         <element label="Engagement Details" max_length="1000" name="engagement_details" type="string"/>
         <element label="Engagement End Date" max_length="40" name="engagement_end_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Engagement Type" max_length="40" name="engagement_type" type="choice">
@@ -34,6 +35,7 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Is there a partner engaged with the customer? Please provide details" max_length="900" name="partner_engagement" type="string"/>
+        <element label="PA Aggregate Hours" max_length="5000" name="pa_aggregate_hours" type="string"/>
         <element label="PA Assigned" max_length="32" name="pa_assigned" reference="sys_user" reference_qual="titleLIKEPlatform Architect^EQ" reference_qual_condition="titleLIKEPlatform Architect^EQ" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="What is the PA skillset preference?" max_length="40" name="pa_skillset" reference="x_snc_customer_out_pa_skillset" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list">
             <choice/>
@@ -66,6 +68,8 @@
                 <element inactive_on_update="false" label="40" sequence="200" value="40"/>
             </choice>
         </element>
+        <element label="Renewal Considerations" max_length="7000" name="renewal_considerations" type="string_full_utf8"/>
+        <element label="Renewal Date" max_length="40" name="renewal_date" type="glide_date"/>
         <element label="SA Assigned" max_length="32" name="sa_assigned" reference="sys_user" reference_qual="titleLIKESuccess Architect^EQ" reference_qual_condition="titleLIKESuccess Architect^EQ" type="reference"/>
         <element label="SA Sugesstions" max_length="2000" name="sa_sugesstions" reference="sys_user" type="glide_list"/>
         <element label=" Engagement Start Date" max_length="40" name="start_date" type="glide_date"/>

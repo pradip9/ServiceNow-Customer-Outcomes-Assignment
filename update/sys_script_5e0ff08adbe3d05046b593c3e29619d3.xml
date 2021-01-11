@@ -29,37 +29,56 @@
         <rest_service_text/>
         <rest_variables/>
         <role_conditions/>
-        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
 
-	// Assign script specific variables to capture details
+    // Capture PA Suggessted Resources to an array
+    var pauserArray = [];
+
+    // Assign PA values to the array
+    pauserArray = current.pa_sugesstions.split(",");
 	
-	var sum = 0;
+	//Building string to capture values for Aggregate hrs
+	
+	var result = "";
+
+    // Capture Array values in logs to check for any errors
+    gs.info("The PA array values which I have got for hrs for resource allocation are:" + pauserArray);
+
+    // Iterating over the array and then summing up values
+    for (i = 0; i < pauserArray.length; i++) {
+        var paname = pauserArray[i];
+		getTotalHours(paname);
+		gs.info(paname + ":    Total " + getTotalHours(paname));
+		var resourceName = getUserByID(paname);
+		var msg = "Resource" +" " +resourceName+ " " + "has" + " " +getTotalHours(paname)+ " " + "hrs already assigned"+"\n";
+        result += msg;
+		//gs.addInfoMessage(result);
+				
+    }
+	current.setValue("pa_aggregate_hours",result.toString());
+	current.update();
+	
+    // Function to calculate the aggregate based on the total hours column in PA allocations.
+    function getTotalHours(pradip) {
+        var totalHours = new GlideAggregate("x_snc_customer_out_pa_allocations");
+        totalHours.addQuery('name', pradip);
+        totalHours.addAggregate('SUM', 'total_hours');
+        totalHours.setGroup(false);
+        totalHours.query();
+        if (totalHours.next()) {
+            return totalHours.getAggregate('SUM', 'total_hours');
 		
-	// Capture PA Suggessted Resources to an array
-		var pauserArray = [];
+		
+        }
+		
+    }
 	
-	// Assign PA values to the array
-		pauserArray = current.pa_sugesstions.split(",");
-	
-	// Capture Array values in logs to check for any errors
-	gs.info ("The PA array values which I have got are:" +pauserArray);
-	
-	// Make a gliderecord call to PA allocation table to start iterating over an array and sum up the hrs
-	var paallocation = new GlideRecord('x_snc_customer_out_pa_allocations');
-	
-	// Iterating over the array and then summing up values
-	for (i=0; i<pauserArray.length; i++) {
-	var paname = pauserArray[i];
-	gs.info(("The value in the loop is:" + paname));	  
-	if (paname) {
-	var querystring = 'name=' +paname;
-	paallocation.addQuery();
-	gs.info("The value in query string is:" + querystring);
-	sum =+ parseInt(paallocation.total_hours);
-	gs.info(("The total hrs for PA resource is:" + sum));
-	}	
+	function getUserByID(sysID) {
+		var user = new GlideRecord('sys_user');
+		user.get(sysID);
+		return user.name;
 	}
-	
+
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -67,7 +86,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5e0ff08adbe3d05046b593c3e29619d3</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>69</sys_mod_count>
         <sys_name>Total Hrs to Display Resource Allocation</sys_name>
         <sys_overrides/>
         <sys_package display_value="Customer Outcomes Assignment" source="x_snc_customer_out">7d70ba10db879850bde16a3b13961924</sys_package>
@@ -75,7 +94,7 @@
         <sys_scope display_value="Customer Outcomes Assignment">7d70ba10db879850bde16a3b13961924</sys_scope>
         <sys_update_name>sys_script_5e0ff08adbe3d05046b593c3e29619d3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-30 22:39:12</sys_updated_on>
+        <sys_updated_on>2021-01-05 00:36:31</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>
